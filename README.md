@@ -7,8 +7,6 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 
 ### Accedi al nostro sito:
 
-Palette:
-<br>
 <img src="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%" style="margin: 0;">
 
 # PAGINE
@@ -20,7 +18,11 @@ Palette:
 
 # STILE
 
+
 <a href="style-guide.md">Style Guide</a>
+
+### Palette:
+<br>
 
 <img src="readmeSrc\colorPalette.png" alt="palette" width="40%" height="40%">
 
