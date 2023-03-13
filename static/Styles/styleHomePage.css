@@ -35,6 +35,7 @@ body{
     display: flex;
     align-items: center;
     background-color: var(--navColor);
+    height: 70px;
 }
 
 /*
@@ -70,7 +71,7 @@ Centrale sulla navbar
     letter-spacing: 8px;
     color: #fff;
     user-select: none;
-    font-size: 30px ;
+    font-size: 35px ;
 }
 
 .nomeSito:hover{
@@ -88,7 +89,7 @@ Centrale sulla navbar
 NB: Ho spostato la foto ma continua a non vedersi
 
 */
-.primaSezione{
+.sezioneIntro{
     /*background-image: url("/static/images/savingMoney.jpg");*/
     background-color: #171c1c;
     width: 100%;
@@ -103,3 +104,18 @@ NB: Ho spostato la foto ma continua a non vedersi
 }
 
 
+@media only screen and (max-width: 380px) {
+    .nomeSito{
+        font-size: 21px;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 60px;
+    }
+
+    #textCenter{
+        font-size: 40px;
+    }
+
+  }
