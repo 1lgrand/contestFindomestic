@@ -9,8 +9,6 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 
 <center><img src="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%"></center>
 
-
-
 # PAGINE
 - Bonfici
 
@@ -21,6 +19,8 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 # STILE
 
 <a href="style-guide.md">Style Guide</a>
+
+<img src="readmeSrc\colorPalette.png" alt="palette" width="40%" height="40%">
 
 # AUTHORS
 
