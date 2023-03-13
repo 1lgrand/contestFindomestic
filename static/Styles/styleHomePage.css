@@ -83,11 +83,14 @@ Centrale sulla navbar
 
 /*== SEZIONE DI BG IMAGE ==*/
 
-/*TOFIX: Non si vede l'immagine*/
+/*TOFIX: Non si vede l'immagine su github pages
+
+NB: Ho spostato la foto ma continua a non vedersi
+
+*/
 .primaSezione{
     /*background-image: url("/static/images/savingMoney.jpg");*/
     background-color: #171c1c;
-    background-size: cover;
     width: 100%;
     height: 740px;
 }
