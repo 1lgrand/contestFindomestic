@@ -85,7 +85,7 @@ Centrale sulla navbar
 
 /*TOFIX: Non si vede l'immagine*/
 .primaSezione{
-    background: url("/static/images/savingMoney.jpg");
+    background-image: url("/static/images/savingMoney.jpg");
     background-size: cover;
     width: 100%;
     height: 740px;
