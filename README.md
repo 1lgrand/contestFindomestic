@@ -7,6 +7,7 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 
 ### Accedi al nostro sito:
 
+<p style="color: red;">Color Palette<p>
 <img src="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%" style="margin: 0;">
 
 # PAGINE
