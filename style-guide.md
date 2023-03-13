@@ -11,6 +11,7 @@
 ## Other Colors 
 - Background color: #f0f0f0
 - Footer: #f4f4f9
+- Text Color: #171c1cs
 
 # FONTS
 - Links
@@ -19,7 +20,5 @@
 
 - Weight
     - Poppins : 300,400,600
-    - Merriweather : 400 700 900
-
 
 # RESPONSIVE
