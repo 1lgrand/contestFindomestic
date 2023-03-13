@@ -8,5 +8,8 @@ Progetto per il contest Manager Of Financial Literacy.
 
 - Gestione del denaro
   - Risparmio
- 
  - Per i genitori
+
+# STILE
+
+<a href="style-guide.md">Style Guide</a>
