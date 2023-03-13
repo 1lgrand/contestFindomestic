@@ -103,6 +103,11 @@ NB: Ho spostato la foto ma continua a non vedersi
     padding-top: 330px;
 }
 
+/*== SECONDA SEZIONE ==*/
+.secondaSezione{
+    width: 100%;
+    height: 735px;
+}
 
 @media only screen and (max-width: 380px) {
     .nomeSito{
@@ -119,3 +124,10 @@ NB: Ho spostato la foto ma continua a non vedersi
     }
 
   }
+#titoloDiv{
+    font-size: 40px;
+    font-weight: bold;
+    color: #171c1c;
+    margin-left: 18px;
+    margin-top: 46px;
+}
