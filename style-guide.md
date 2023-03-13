@@ -9,8 +9,8 @@
 - Light Green: #8FF6AA 
 
 ## Other Colors 
-
 - Background color: #f0f0f0
+- Footer: #f4f4f9
 
 # FONTS
 - Links
