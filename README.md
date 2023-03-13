@@ -18,6 +18,6 @@ Progetto per il contest Manager Of Financial Literacy.
 
 Made By:
 
-[DE MARZO ALESSANDRO] <a>https://github.com/1lgrand</a>
-[DE GIOSA SIMONE] <a>https://github.com/side223</a>
-[ARMENISE MARCO] <a>https://github.com/MarcuccioArme</a>
+- [DE MARZO ALESSANDRO] <a>https://github.com/1lgrand</a>
+- [DE GIOSA SIMONE] <a>https://github.com/side223</a>
+- [ARMENISE MARCO] <a>https://github.com/MarcuccioArme</a>
