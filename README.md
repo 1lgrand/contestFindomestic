@@ -3,6 +3,14 @@ Progetto per il contest Manager Of Financial Literacy.
 
 ## Insegnare l'educazione finanziaria ai bambini
 
+Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli strumenti finanizari
+
+### Accedi al nostro sito:
+
+<center><img href="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%"></center>
+
+
+
 # PAGINE
 - Bonfici
 
