@@ -7,7 +7,7 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 
 ### Accedi al nostro sito:
 
-<center><img href="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%"></center>
+<center><img src="readmeSrc\QRCODE.png" alt="qrcode" width="40%" height="40%"></center>
 
 
 
