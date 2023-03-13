@@ -85,10 +85,10 @@ Centrale sulla navbar
 
 /*TOFIX: Non si vede l'immagine*/
 .primaSezione{
-    background-image: url("/static/images/savingMoney.jpg");
+    /*background-image: url("/static/images/savingMoney.jpg");*/
+    background-color: #171c1c;
     background-size: cover;
     width: 100%;
-    background-color: #171c1c;
     height: 740px;
 }
 
