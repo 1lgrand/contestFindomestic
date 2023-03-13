@@ -86,5 +86,16 @@ Centrale sulla navbar
 /*TOFIX: Non si vede l'immagine*/
 .primaSezione{
     background: url("/static/images/homeImages/savingMoney.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 740px;
 }
+
+/* == TESTO CENTRALE == */
+#textCenter{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 330px;
+}
+
 
