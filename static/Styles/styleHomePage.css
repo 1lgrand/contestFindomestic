@@ -85,7 +85,7 @@ Centrale sulla navbar
     cursor: pointer;
 }
 
-/*== SEZIONE DI BG IMAGE ==*/
+/*== SEZIONE CON BG IMAGE ==*/
 
 /*TOFIX: Non si vede l'immagine su github pages
 
@@ -106,13 +106,20 @@ NB: Ho spostato la foto ma continua a non vedersi
     padding-top: 330px;
 }
 
-/*== SECONDA SEZIONE ==*/
+/*== PRIMA SEZIONE ==*/
 .primaSezione{
     width: 100%;
     height: 735px;
     
 }
 
+#titoloDiv{
+    font-size: 40px;
+    font-weight: bold;
+    color: #171c1c;
+    margin-left: 18px;
+    margin-top: 46px;
+}
 
 .flex-container{
     display: flex;
@@ -156,11 +163,26 @@ NB: Ho spostato la foto ma continua a non vedersi
         font-size: 40px;
     }
 
+    #titoloDiv{
+        font-size: 20px;
+    }
+
+    .flex-container{
+        display: block;
+        justify-content: space-around;
+    }
+
+    .descrizione{
+        font-size: 15px;
+        text-align: left;
+        position: absolute;
+    }
+
+    #image{
+        visibility: hidden;
+    }
+
   }
-#titoloDiv{
-    font-size: 40px;
-    font-weight: bold;
-    color: #171c1c;
-    margin-left: 18px;
-    margin-top: 46px;
-}
+
+
+
