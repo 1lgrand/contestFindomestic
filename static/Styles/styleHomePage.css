@@ -43,6 +43,55 @@ body{
     scrollbar-width: none;  /* Firefox */
 }
 
-/*=========================================================*/
+/*================    ## NAVBAR ##  =========================================*/
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.navbar.scrollata {
+    background-color: var(--navColor);
+  }
+
+.menuIcon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+  }
+  
+.titolo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-right: 110px;
+    font-size: 21px;
+} 
+
+/*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
+
+.intro{
+    background-image: url('/static/images/homeImages/savingMoney.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.introText {
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+/**/
 
