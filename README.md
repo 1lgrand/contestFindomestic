@@ -1,5 +1,5 @@
 # Contest Findomestic
-Progetto per il contest Manager Of Financial Literacy.
+Progetto per il contest "Manager Of Financial Literacy."
 
 ## Insegnare l'educazione finanziaria ai bambini
 
