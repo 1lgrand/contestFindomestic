@@ -76,7 +76,8 @@ body{
 /*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
 
 .intro{
-    background-image: url('../images/homeImages/savingMoney.jpg');
+    /*background-image: url('../images/homeImages/savingMoney.jpg');*/
+    background-color: var(--textColor);
     background-size: cover;
     height: 400px;
     display: flex;
