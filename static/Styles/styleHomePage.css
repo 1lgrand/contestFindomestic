@@ -94,5 +94,25 @@ body{
     text-align: center;
 }
 
-/**/
+/*==== SEZIONE 1 ===*/
 
+.sezione{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titoloSezione{
+    font-size: 20;
+    color: var(--textColor);
+}
+
+.testoSezione{
+    color: #171c1c;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sezione1{
+    background-color: white;
+}
