@@ -46,15 +46,14 @@ body{
 /*================    ## NAVBAR ##  =========================================*/
 
 .navbar{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
     background-color: transparent;
-    position: fixed;
     width: 100%;
     transition: background-color 0.3s ease-in-out;
-
 }
 
 .navbar.scrollata {
@@ -77,7 +76,7 @@ body{
 /*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
 
 .intro{
-    background-image: url('/static/images/homeImages/savingMoney.jpg');
+    background-image: url('../images/homeImages/savingMoney.jpg');
     background-size: cover;
     height: 400px;
     display: flex;
