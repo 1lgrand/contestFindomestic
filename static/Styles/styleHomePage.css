@@ -72,15 +72,14 @@ body{
     font-size: 1.7rem;
     font-weight: bold;
     font-size: 21px;
-    margin: 0;
-    margin-left: 15vh;
+    margin-left: 10px;
 } 
 
 /*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
 
 .intro{
-    /*background-image: url('../images/homeImages/savingMoney.jpg');*/
-    background-color: var(--textColor);
+    background-image: url('../images/homeImages/savingMoney.jpg');
+    /*background-color: var(--textColor);*/
     background-size: cover;
     height: 400px;
     display: flex;
