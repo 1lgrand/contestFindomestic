@@ -72,6 +72,7 @@ body{
     font-weight: bold;
     font-size: 21px;
     text-align: right;
+    padding-left: 20px;
 } 
 
 /*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
@@ -140,11 +141,26 @@ body{
 /* == MEDIA QUERY TABLET */
 
 @media screen and (min-width: 767px) {
-    .titolo{
-        text-align: center;
-        display:initial;
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 40;
     }
+    
+    .menuIcon {
+        order: -1;
+        margin-right: auto;
+    }
+      
+    .titolo {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 22.3%;
+    }
+      
 
     .sezione{
         padding-top: 30px;
