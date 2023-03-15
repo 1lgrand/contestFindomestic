@@ -54,7 +54,6 @@ body{
     width: 100%;
     transition: background-color 0.3s ease-in-out;
     text-align: center;
-    justify-content: center;
 }
 
 .navbar.scrollata {
@@ -65,14 +64,14 @@ body{
     width: 2rem;
     height: 2rem;
     margin-right: 0;
+    align-self: flex-start;
   }
   
 .titolo {
     font-size: 1.7rem;
     font-weight: bold;
     font-size: 21px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: right;
 } 
 
 /*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
