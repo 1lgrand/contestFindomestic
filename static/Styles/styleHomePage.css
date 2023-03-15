@@ -66,6 +66,14 @@ body{
     margin-right: 0;
     align-self: flex-start;
   }
+
+.menuIcon:hover {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0;
+    align-self: flex-start;
+    cursor: pointer;
+}
   
 .titolo {
     font-size: 1.7rem;
@@ -153,12 +161,18 @@ body{
         order: -1;
         margin-right: auto;
     }
+
+    .menuIcon:hover {
+        order: -1;
+        margin-right: auto;
+        cursor: pointer;
+    }
       
     .titolo {
         order: 2;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 22.3%;
+        padding-right: 24.6%;
     }
       
 
