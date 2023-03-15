@@ -9,7 +9,7 @@
 /* == CLASSI STANDARD ==*/
 
 :root{
-    --bg-color: #f0f0f0;
+    --bg-color: #fff;
     --navColor: #00803E;
     --textColor: #171c1c;
     --menuBgColor: #329C58;
@@ -113,6 +113,8 @@ body{
     color: #171c1c;
     font-weight: 400;
     font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sezione1{
@@ -135,6 +137,7 @@ body{
     width: 60%;
 }
 
+
 /* == MEDIA QUERY TABLET */
 
 @media screen and (min-width: 767px) {
@@ -148,6 +151,16 @@ body{
         padding-top: 30px;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+    }
+
+    .testoSezione{
+        margin: 50px;
+    }
+
+    #immagine{
+        margin-left: 10px;
+        width: 30%;
+        padding-bottom: 2.9rem;
+        padding-right: 1rem;
     }
 }
