@@ -23,11 +23,7 @@ window.onload = function() {
   
       aside.classList.toggle('show')
       
-      if (window.scrollY > 0) {
-        navbar.classList.remove('scrollata');
-      } else {
-        navbar.classList.add('scrollata');
-      }
+    
 
   });
 }
