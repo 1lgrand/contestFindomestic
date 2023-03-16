@@ -13,19 +13,23 @@ CHECKLIST:
  L ✅️ Design Completo
  L ✅️ Navbar funzionante
  L ✅️ Sezioni presenti
- L ❌️ Full Responsive
+ L ✅️ Full Responsive
  L ✅️ Titolo non centrato
+ |  L ❌️ Collegamento alla Home
  L ✅️ Sidebar funzionante
+ |  L- ❌️ Link Sidebar
+ L ❌️ Testi funzionanti
 
-⬜️ GESTIONE DEL PROPRIO DENARO
+⬜️ IMPARA
  L ❌️ Design
 
-
-⬜️ RISPARMIO DEL DENARO
- L ❌️ Dedign
-
-⬜️ GIOCO
- L ❌️ Idea
+⬜️ GIOCA
+ L ✅️ Idea
+ L ❌️ Design
+ L ❌️ File JSON
 
 ⬜️ PER I GENITORI
+ L ❌️ Design
+ 
+ ⬜️ CHI SIAMO
  L ❌️ Design
