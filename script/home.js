@@ -19,11 +19,9 @@ window.onload = function() {
   const navbar = document.getElementById('navbar')
 
   menuIcon.addEventListener('click', function() {
-    
-  
+
       aside.classList.toggle('show')
       
-    
-
+  
   });
 }
