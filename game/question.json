@@ -1,0 +1,11 @@
+[
+    {
+        "question": "DOMANDA1",
+        "id":0,
+        "answers": [
+            {"text": "R1", "value":1},
+            {"text": "R1", "value":1},
+            {"text": "R1", "value":1}
+        ]
+    }
+]
