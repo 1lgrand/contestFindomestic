@@ -52,7 +52,7 @@ body{
     display: flex;
     align-items: center;
     padding: 1rem;
-    background-color: transparent;
+    background-color: var(--menuBgColor);
     width: 100%;
     transition: background-color 0.3s ease-in-out;
     text-align: center;
@@ -86,76 +86,6 @@ body{
     padding-left: 20px;
 } 
 
-/*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
-
-.intro{
-    background-image: url('../images/homeImages/savingMoney.jpg');
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-  
-.introText {
-    font-size: 1.5rem;
-    padding-right: 30px;
-    color: #fff;
-    text-align: center;
-}
-
-/*==== SEZIONE 1 ===*/
-
-.sezione{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.titoloSezione{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 30px;
-    color: var(--textColor);
-}
-
-.testoSezione{
-    color: #171c1c;
-    font-weight: 400;
-    font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.sezione1{
-    padding-bottom: 40px;
-    background-color: white;
-}
-
-/*==== SEZIONE 2 ===*/
-
-.sezione2{
-    background-color: #00803E;
-}
-
-#immagine{
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-.maialino{
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 /* == MENU LATERALE ==*/
 
@@ -179,7 +109,6 @@ body{
 #list-item{
     margin: 60px 20px;
     font-size: 22px;
-   
 }
 
 .sidebar-link{
@@ -188,7 +117,6 @@ body{
     color: #fff;
     text-decoration: none;
 }
-
 
 .sidebar-link:visited{
     font-family: 'Poppins','sans serif';
@@ -225,7 +153,7 @@ body{
         margin-right: auto;
         cursor: pointer;
     }
-      
+
     .titolo {
         order: 2;
         margin-left: auto;
@@ -233,30 +161,6 @@ body{
         padding-right: 24.6%;
     }
       
-
-    .sezione{
-        padding-top: 30px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .testoSezione{
-        margin: 50px;
-    }
-
-    #immagine{
-        margin-left: 10px;
-        width: 30%;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
-    }
-
-    .maialino{
-        margin-left: 10px;
-        width: 30%;
-        padding-bottom: 3.5rem;
-        padding-right: 1rem;
-    }
 
 }
 
@@ -290,48 +194,6 @@ body{
         margin-right: auto;
         padding-right: 24.6%;
     }
-      
-
-    .sezione{
-        padding-top: 30px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .titoloSezione{
-        font-size: 40px;
-    }
-
-    .testoSezione{
-        margin: 70px;
-        font-size: 25px;
-    }
-
-    .maialino{
-        width: 70%;
-        height: 70%;
-    }
-
-    #immagine{
-        margin-left: 10px;
-        width: 40%;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
-    }
-
-    .sezione2{
-        height: 390px;
-        padding: 40px;
-    }
-
-    .titoloSezione{
-        padding-top: 1rem;
-    }
-
-    #testoSezione2{
-        width: 606;
-        height: fit-content;
-    }
 
 }
 
@@ -356,64 +218,12 @@ body{
         margin-right: auto;
         cursor: pointer;
     }
-      
+
     .titolo {
         order: 2;
         margin-left: auto;
         margin-right: auto;
         padding-right: 24.6%;
     }
-      
-
-    .sezione{
-        padding-top: 30px;
-        display: flex;
-        flex-direction: row;
-        margin: 0 50px;
-    }
-
-
-    .titoloSezione{
-        font-size: 40px;
-    }
-
-    .testoSezione{
-        margin-left: 40px auto;
-        margin-right: 0 auto;
-        font-size: 25px;
-        width: 700px;
-        padding-left: 24.5%;
-    }
-
-    .maialino{
-        width: 300px;
-        height: 300px;
-    }
-
-    #immagine{
-        margin-left: 10px;
-        width: 250px;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
-        margin-bottom: 40px;
-    }
-
-    .sezione2{
-        height: 350px;
-        padding: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .titoloSezione{
-        padding-top: 1rem;
-    }
-
-    #testoSezione2{
-        width: 700px;
-        height: fit-content;
-    }
-
 
 }
