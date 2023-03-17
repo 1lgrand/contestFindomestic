@@ -47,12 +47,26 @@ body{
 
 /*================    ## NAVBAR ##  =========================================*/
 
+a:link{
+    font-family: 'Poppins','sans serif';
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    font-family: 'Poppins','sans serif';
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar{
     position: fixed;
     display: flex;
     align-items: center;
     padding: 1rem;
-    background-color: transparent;
+    background-color: var(--navColor);
     width: 100%;
     transition: background-color 0.3s ease-in-out;
     text-align: center;
@@ -86,24 +100,8 @@ body{
     padding-left: 20px;
 } 
 
-/*=== SEZIONE INTRODUTTIVA CON TITOLO CENTRALE === */
 
-.intro{
-    background-image: url('../images/homeImages/savingMoney.jpg');
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-  
-.introText {
-    font-size: 1.5rem;
-    padding-right: 30px;
-    color: #fff;
-    text-align: center;
-}
 
 /*==== SEZIONE 1 ===*/
 
@@ -390,7 +388,7 @@ body{
 
     #immagine{
         margin-left: 10px;
-        width: 250px;
+        width: 260px;
         padding-bottom: 2.9rem;
         padding-right: 1rem;
         margin-bottom: 40px;
