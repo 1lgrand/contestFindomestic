@@ -17,19 +17,27 @@ CHECKLIST:
  L ✅️ Titolo non centrato
  |  L ❌️ Collegamento alla Home
  L ✅️ Sidebar funzionante
- |  L- ❌️ Link Sidebar
+ |  L- ✅️ Link Sidebar
  L ❌️ Testi funzionanti
 
 ⬜️ IMPARA
+ L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
+ L ❌️ Collegamento alla Home
 
 ⬜️ GIOCA
  L ✅️ Idea
+ L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
  L ❌️ File JSON
+ L ❌️ Collegamento alla Home
 
 ⬜️ PER I GENITORI
+ L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
+ L ❌️ Collegamento alla Home
  
  ⬜️ CHI SIAMO
+ L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
+ L ❌️ Collegamento alla Home
