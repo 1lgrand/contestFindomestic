@@ -1,11 +1,29 @@
 [
     {
-        "question": "DOMANDA1",
-        "id":0,
+        "question": "Qual è la capitale dell'Italia?",
+        "answers": ["Roma","Milano","Napoli","Firenze"],
+        "correctAnswer": "Roma"
+    },
+
+    {
+        "question": "Chi ha scritto 'La Divina Commedia'?",
         "answers": [
-            {"text": "R1", "value":1},
-            {"text": "R1", "value":1},
-            {"text": "R1", "value":1}
-        ]
-    }
+            "Dante Alighieri",
+            "Giovanni Boccaccio",
+            "Petrarca",
+            "Luigi Pirandello"
+        ],
+        "correctAnswer": "Dante Alighieri"
+    },
+  
+    {
+    "question": "Quanti continenti ci sono nel mondo?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7"
+  }
 ]
