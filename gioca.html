@@ -13,10 +13,10 @@
 </head>
 <body>
     
-    <header style="text-align: center; position: absolute;">
+    <header style="text-align: center;">
         <nav class="navbar" id="navbar">
             <img src="static/images/icons/MenuIcon.svg" class="menuIcon" alt="iconMenu" srcset="">
-            <h1 class="testo titolo"><a href="index.html" style="text-decoration: none; font-size: 21px;">RESPARMO</a></h1>
+            <h1 class="testo titolo"><a class="linkHome" href="index.html" style="text-decoration: none; font-size: 21px;">RESPARMO</a></h1>
         </nav>
 
         <aside id="menuLaterale">
@@ -31,9 +31,15 @@
         </aside>
     </header>
 
-    <main>
-        <h1>Ciao</h1>
-    </main>
+    <div id="regole-avvia">
+
+        <p class="regole">Ora mostraci le tue abilità! Con quello che hai imparato, nella sezione <a class="collegamentoImpara" href="imparaPage.html">Impara qui</a> gioca questo divertente quiz<br>
+        le regole sono molto semplici: 
+        Dovrai rispondere a 20 domande, e dovrai cercare di ottenere il punteggio massimo, avrai a disposizione 3 BONUS, che ti consentiranno di cambiare domanda, per ogni domanda c'è solo una risposta giusta
+            </p>
+        <button class="button" onclick="startGame()">Gioca ora!</button>
+
+    </div>
 
 </body>
 </html>

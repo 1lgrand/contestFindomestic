@@ -47,14 +47,14 @@ body{
 
 /*================    ## NAVBAR ##  =========================================*/
 
-a:link{
+.linkHome:link{
     font-family: 'Poppins','sans serif';
     font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
 
-a:visited{
+.linkHome:visited{
     font-family: 'Poppins','sans serif';
     font-size: 18px;
     color: #fff;
@@ -62,7 +62,6 @@ a:visited{
 }
 
 .navbar{
-    position: fixed;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -144,6 +143,20 @@ a:visited{
     font-size: 22px;
     color: #fff;
     text-decoration: none;
+}
+
+
+/* == DIV REGOLE E PULSANTE GIOCA == */
+#regole-avvia{
+    font-size: 20px;
+    margin: 0 8%;
+    text-align: center;
+    font-family: 'Poppins', 'Sans Serif';
+}
+
+.collegamentoImpara{ 
+    color: #02331a; 
+    font-size: 20px;
 }
 
 /* == MEDIA QUERY TABLET */
