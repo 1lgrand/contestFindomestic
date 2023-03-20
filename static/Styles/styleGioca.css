@@ -148,16 +148,68 @@ body{
 
 /* == DIV REGOLE E PULSANTE GIOCA == */
 #regole-avvia{
+    padding-top: 1rem;
     font-size: 20px;
-    margin: 0 8%;
     text-align: center;
     font-family: 'Poppins', 'Sans Serif';
+}
+
+.regole{
+    display: block;
+    margin-left: 8%;
+    margin-right: 8%;
+
 }
 
 .collegamentoImpara{ 
     color: #02331a; 
     font-size: 20px;
 }
+
+    /* BOTTONE DI GIOCO */
+
+.playButton{
+    transition-duration: 0.4s;
+    border-color:transparent;
+    margin-top: 23px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #006e35;
+    width: 125px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.playButton:hover{
+    margin-top: 23px;
+    border-color:transparent;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #019146;
+    width: 125px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+
+.playButton:active{
+    margin-top: 23px;
+    border-color:transparent;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #043b1f;
+    width: 125px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
 
 /* == MEDIA QUERY TABLET */
 

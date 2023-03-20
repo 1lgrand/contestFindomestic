@@ -22,3 +22,13 @@
     - Poppins : 300,400,600
 
 # RESPONSIVE
+
+
+# Gioca Page
+
+- Button:
+    - Border Radius 20px
+    - BG Color #006e35 
+    - Font Size 15px
+    - Shadow
+    - Font Color White
