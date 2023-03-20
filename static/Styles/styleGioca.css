@@ -168,6 +168,7 @@ body{
 
     /* BOTTONE DI GIOCO */
 
+
 .playButton{
     transition-duration: 0.4s;
     border-color:transparent;
@@ -239,7 +240,20 @@ body{
         margin-right: auto;
         padding-right: 24.6%;
     }
+
+    .regole{
+        font-size: 23px;
+    }
+
+    .collegamentoImpara{ 
+        color: #02331a; 
+        font-size: 23px;
+    }
       
+    .playButton{
+        width: 127px;
+        height: 53px;
+    }
 
 }
 
@@ -274,6 +288,19 @@ body{
         padding-right: 24.6%;
     }
 
+    .regole{
+        font-size: 25px;
+    }
+
+    .collegamentoImpara{ 
+        color: #02331a; 
+        font-size: 25px;
+    }
+
+    .playButton{
+        width: 130px;
+        height: 56px;
+    }
 }
 
 /* == LAPTOP GRANDE == */
@@ -303,6 +330,22 @@ body{
         margin-left: auto;
         margin-right: auto;
         padding-right: 24.6%;
+    }
+
+    .regole{
+        font-size: 27px;
+        margin: 0 30%;
+
+    }
+
+    .collegamentoImpara{ 
+        color: #02331a; 
+        font-size: 27px;
+    }
+
+    .playButton{
+        width: 133px;
+        height: 59px;
     }
 
 }

@@ -1,46 +1,41 @@
-let currentQuestion = 0;
-let score = 0;
-let quizContainer = document.getElementById("quiz");
-let questionContainer = document.getElementById("question");
-let answerContainer = document.getElementById("answers");
-let submitButton = document.getElementById("submit");
-let questions = [];
+function loadGame(){
 
-// Carica le domande dal file JSON
-fetch("questions.json")
-  .then(response => response.json())
-  .then(data => {
-    questions = data;
-    showQuestion();
-  });
+  startButton = document.getElementById("button")
+  startButton.style.disabled
 
-// Mostra la domanda corrente e le relative risposte
-function showQuestion() {
-  let question = questions[currentQuestion];
-  questionContainer.innerHTML = question.question;
-  answerContainer.innerHTML = "";
-  for (let i = 0; i < question.answers.length; i++) {
-    let answer = question.answers[i];
-    let button = document.createElement("button");
-    button.innerHTML = answer;
-    button.addEventListener("click", function() {
-      if (answer === question.correctAnswer) {
-        score++;
-      }
-      currentQuestion++;
-      if (currentQuestion < questions.length) {
-        showQuestion();
-      } else {
-        showScore();
-      }
-    });
-    answerContainer.appendChild(button);
-  }
+  //loadTable()
+
+  
+  game = document.getElementById("gameDiv")
+  game.style.visibility = 'visible'
 }
 
-// Mostra il punteggio finale
-function showScore() {
-  questionContainer.innerHTML = "Hai totalizzato " + score + " punti su " + questions.length;
-  answerContainer.innerHTML = "";
-  submitButton.style.display = "none";
+
+
+function loadTable(){
+  
+
+
+
+}
+
+function checkAnswer(){
+
+    var radioButtons = document.getElementsByName("rb")
+
+    for(let i of radioButtons){
+      if(i.checked){
+        checkedRb = i
+      }
+    }
+
+    if(checkedRb.value == "1"){
+      alert("Hai vinto")
+    }else{
+      alert('Hai perso');
+    }
+
+
+
+
 }

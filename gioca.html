@@ -37,7 +37,46 @@
         le regole sono molto semplici: 
         Dovrai rispondere a 20 domande, e dovrai cercare di ottenere il punteggio massimo, avrai a disposizione 3 BONUS, che ti consentiranno di cambiare domanda, per ogni domanda c'è solo una risposta giusta
             </p>
-        <button class="playButton" onclick="startGame()">Gioca ora!</button>
+        <button class="playButton" id="button" onclick="loadGame()">Gioca ora!</button>
+
+    </div>
+
+    <div id="gameDiv" style="visibility: hidden;">
+        
+        <table name="tabella" id="card">
+            <tr>
+                <td class="BonusDisponibili" >Bonus Disponibili</td>
+                <td id="nBonus" class="BonusDisponibili">3</td>
+            </tr>
+
+            <tr>
+                <th colspan="2" class="domanda" id="question">Di che colore era Marco Armenise?</th>
+                <td class="points">punteggio</td>
+                <td id="points" class="points">3</td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="rb" id="" value="0" onclick="checkAnswer()"></td>
+                <td><p id="question1" class="question">Nero</p></td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="rb" id="" value="1" onclick="checkAnswer()"></td>
+                <td><p id="question2" class="question">Verde</p></td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="rb" id="" value="0" onclick="checkAnswer()"></td>
+                <td><p id="question3" class="question">Rosso</p></td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="rb" id="" value="0" onclick="checkAnswer()"></td>
+                <td><p id="question4" class="question">Giallo</p></td>
+            </tr>
+
+        </table>
+
 
     </div>
 
