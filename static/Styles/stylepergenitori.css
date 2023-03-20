@@ -47,6 +47,20 @@ body{
 
 /*================    ## NAVBAR ##  =========================================*/
 
+a:link{
+    font-family: 'Poppins','sans serif';
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    font-family: 'Poppins','sans serif';
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar{
     position: fixed;
     display: flex;
