@@ -1,29 +1,23 @@
 [
-    {
-        "question": "Qual è la capitale dell'Italia?",
-        "answers": ["Roma","Milano","Napoli","Firenze"],
-        "correctAnswer": "Roma"
-    },
-
-    {
-        "question": "Chi ha scritto 'La Divina Commedia'?",
-        "answers": [
-            "Dante Alighieri",
-            "Giovanni Boccaccio",
-            "Petrarca",
-            "Luigi Pirandello"
-        ],
-        "correctAnswer": "Dante Alighieri"
-    },
-  
-    {
-    "question": "Quanti continenti ci sono nel mondo?",
+  {
+    "question": "Di che colore era marco armenise",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7"
+      {"answer": "Caldarulo", "value": 0},
+      {"answer": "De Giosa", "value": 0},
+      {"answer": "Mastrandrea", "value": 1},
+      {"answer": "Michele Capozzi", "value": 0}
+    ]
+  },
+
+  {
+    "question": "Di che colore era giuseppe mastrandrea",
+    "answers": [
+      {"answer": "Michele Capozzi", "value": 0},
+      {"answer": "Patty", "value": 1},
+      {"answer": "Frontone", "value": 0},
+      {"answer": "Othman", "value": 0}
+    ]
   }
+
+
 ]
