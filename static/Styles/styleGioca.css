@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:0;
+    box-sizing:border-box;
 }
 
 /* == CLASSI STANDARD ==*/
@@ -355,20 +355,26 @@ body{
 /* == GAME == */
 
 #gameDiv{
-    padding-top: 20px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     display: flex;
     justify-content: center;
     visibility: hidden;    
+    text-align: center;
+    margin: auto;
 }
 
 
 .BonusDisponibili{
     color: #171c1c;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .nBonus{
     padding-left: 12px;
     color: #171c1c;
+    font-size: 32px;
 }
 
 .domanda{
@@ -383,7 +389,10 @@ body{
     font-size: 15px;
 }
 
-
+.points{
+    padding-top: 2vh;
+    color: #171c1c;
+}
 
 
 
