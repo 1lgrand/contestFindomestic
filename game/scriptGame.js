@@ -4,7 +4,7 @@ function loadGame(){
   startButton = document.getElementById("button")
   startButton.style.disabled
 
-  loadTable()
+  nextQuestion()
   
   game = document.getElementById("gameDiv")
   game.style.visibility = 'visible'
@@ -12,12 +12,11 @@ function loadGame(){
 
 
 
-function loadTable(){
+
+function nextQuestion(){
   
-  rb1 = document.getElementById("rb1")
-  rb2 = document.getElementById("rb2")
-  rb3 = document.getElementById("rb3")
-  rb4 = document.getElementById("rb4")
+  
+
 
   
 

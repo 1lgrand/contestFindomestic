@@ -349,3 +349,41 @@ body{
     }
 
 }
+
+
+
+/* == GAME == */
+
+#gameDiv{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;    
+}
+
+
+.BonusDisponibili{
+    color: #171c1c;
+}
+
+.nBonus{
+    padding-left: 12px;
+    color: #171c1c;
+}
+
+.domanda{
+    color: #171c1c;
+    padding: 10px 20px 5px 5px;
+    font-size: 15px;
+}
+
+.answer{
+    color: #171c1c;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+
+
+
+

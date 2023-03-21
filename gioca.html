@@ -41,38 +41,37 @@
 
     </div>
 
-    <div id="gameDiv" style="visibility: hidden;">
+    <div id="gameDiv">
         
         <table name="tabella" id="card">
             <tr>
-                <td class="BonusDisponibili" >Bonus Disponibili</td>
-                <td id="nBonus" class="BonusDisponibili">3</td>
+                <td class="testo BonusDisponibili" >Bonus Disponibili</td>
+                <td id="nBonus testo" class="testo nBonus">3</td>
             </tr>
 
             <tr>
-                <th colspan="2" class="domanda" id="question">LOADING</th>
-                <td class="points">Points</td>
-                <td id="points" class="points">3</td>
+                <th colspan="2" class="domanda testo" id="question">LOADING</th>
+                <td class="points testo">Points <span id="points" class="testo points">0</span></td>
             </tr>
 
             <tr>
-                <td><input type="radio" name="rb" id="rb1" value="" onclick="checkAnswer()"></td>
-                <td><p id="question1" class="question">0</p></td>
+                <td><input type="radio" name="rb" class="radio" id="rb1" value=""><span id="answer" class="answer testo">Domanda</span></td>
             </tr>
 
             <tr>
-                <td><input type="radio" name="rb" id="rb2" value="" onclick="checkAnswer()"></td>
-                <td><p id="question2" class="question">0</p></td>
+                <td><input type="radio" name="rb" class="radio" id="rb2" value=""><span id="answer" class="answer testo">Domanda</span></td>
             </tr>
 
             <tr>
-                <td><input type="radio" name="rb" id="rb3" value="" onclick="checkAnswer()"></td>
-                <td><p id="question3" class="question">0</p></td>
+                <td><input type="radio" name="rb" class="radio" id="rb3" value=""><span id="answer" class="answer testo">Domanda</span></td>
             </tr>
 
             <tr>
-                <td><input type="radio" name="rb" id="rb4" value="" onclick="checkAnswer()"></td>
-                <td><p id="question4" class="question">0</p></td>
+                <td><input type="radio" name="rb" class="radio" id="rb4" value=""><span id="answer" class="answer testo">Domanda</span></td>
+            </tr>
+
+            <tr>
+                <td><button name="buttonNext" onclick="nextQuestion()">AVANTI</button></td>
             </tr>
 
         </table>
