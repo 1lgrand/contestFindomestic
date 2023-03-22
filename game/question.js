@@ -1,21 +1,21 @@
 var jsonData = [
     {
-      "question": "Di che colore era marco armenise",
+      "question": "Qual è la capitale di Italia?",
       "answers": [
-        {"answer": "Caldarulo", "value": 0},
-        {"answer": "De Giosa", "value": 0},
-        {"answer": "Mastrandrea", "value": 1},
-        {"answer": "Michele Capozzi", "value": 0}
+        {"answer": "Napoli", "value": 0},
+        {"answer": "Bari", "value": 0},
+        {"answer": "Roma", "value": 1},
+        {"answer": "Lecce", "value": 0}
       ]
     },
   
     {
-      "question": "Di che colore era giuseppe mastrandrea",
+      "question": "Qual è il mio colore preferito? ",
       "answers": [
-        {"answer": "Michele Capozzi", "value": 0},
-        {"answer": "Patty", "value": 1},
-        {"answer": "Frontone", "value": 0},
-        {"answer": "Othman", "value": 0}
+        {"answer": "Giallo", "value": 0},
+        {"answer": "Arancione", "value": 1},
+        {"answer": "Viola", "value": 0},
+        {"answer": "Bianco", "value": 0}
       ]
     }
 ]

@@ -1,18 +1,18 @@
 var radioButtons = [
-  document.getElementById("rb1").value,
-  document.getElementById("rb2").value,
-  document.getElementById("rb3").value,
-  document.getElementById("rb4").value
+  document.getElementById("rb1"),
+  document.getElementById("rb2"),
+  document.getElementById("rb3"),
+  document.getElementById("rb4")
 ]
 
-var answers = [
-  document.getElementById("answer1").textContent,
-  document.getElementById("answer2").textContent,
-  document.getElementById("answer3").textContent,
-  document.getElementById("answer4").textContent
+var risposte = [
+  "answer1",
+  "answer2",
+  "answer3",
+  "answer4"
 ]
 
-
+var currIndex = 0
 
 function loadGame(){
 
@@ -32,9 +32,13 @@ function nextQuestion(){
 
 
   domanda = document.getElementById("question")
-  domanda.innerHTML = jsonData[0].question
+  domanda.innerHTML = jsonData[currIndex].question
 
-  answers[0] = "nuova risposta";
+  for (i=0;i<4;i++){
+    document.getElementById(risposte[i]).innerHTML = jsonData[currIndex].answers[i].answer
+  }
+
+  currIndex++
 
 }
 
