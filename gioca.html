@@ -44,31 +44,34 @@
 
     <div id="gameDiv">
         
-        <table name="tabella" id="card">
+        <table style="text-align: center;" name="tabella" id="card">
             <tr>
-                <td class="testo BonusDisponibili" >Bonus Disponibili</td>
-                <td id="nBonus testo" class="testo nBonus">3</td>
+                <td colspan="2" class="testo BonusDisponibili" >Bonus Disponibili<p id="nBonus testo" class="testo nBonus">3</p></td>
             </tr>
 
             <tr>
                 <th colspan="2" class="domanda testo" id="question">LOADING</th>
-                
             </tr>
 
             <tr>
-                <td><p id="answer1" name="answer" class="answer testo">Domanda1</p></td>
+                <td><p id="answer1" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda1</p></td>
             </tr>
 
             <tr>
-                <td><p id="answer2" name="answer" class="answer testo">Domanda2</p></td>
+                <td><p id="answer2" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda2</p></td>
             </tr>
 
             <tr>
-                <td><p id="answer3" name="answer" class="answer testo">Domanda3</p></td>
+                <td><p id="answer3" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda3</p></td>
             </tr>
 
             <tr>
-                <td><p id="bonus" name="answer" onclick="useBonus()" class="answer bonus testo">USA BONUS</p></td>
+                <td><p id="answer4" name="answer" onclick="setAnswer(this.id)" class="answer bonus testo">Domanda4</p></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="button" value="Avanti" onclick="checkAnswer()">
+                <input type="button" value="Usa Bonus" onclick="useBonus()"></td>
             </tr>
 
             <tr>
