@@ -18,12 +18,14 @@ CHECKLIST:
  L ✅️ Full Responsive
  L ✅️ Titolo non centrato
  L ✅️ Sidebar funzionante
+ L ✅️ Footer
 
 
 ⬜️ IMPARA
  L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
  L ❌️ Collegamento alla Home
+ L ❌️ Footer
 
 ⬜️ GIOCA
  L ✅️ Idea
@@ -32,13 +34,16 @@ CHECKLIST:
  L ✅️ File JSON
  L ✅️ Collegamento alla Home
  L ❌️ GIOCO
+ L ❌️ Footer
 
 ⬜️ PER I GENITORI
  L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
  L ❌️ Collegamento alla Home
+ L ❌️ Footer
  
  ⬜️ CHI SIAMO
  L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
  L ❌️ Design
  L ❌️ Collegamento alla Home
+ L ❌️ Footer

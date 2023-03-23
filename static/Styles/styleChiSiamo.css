@@ -62,7 +62,6 @@ body{
 }
 
 .navbar{
-    position: fixed;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -72,10 +71,6 @@ body{
     text-align: center;
     z-index: 11;
 }
-
-.navbar.scrollata {
-    background-color: var(--navColor);
-  }
 
 .menuIcon {
     width: 2rem;

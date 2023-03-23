@@ -316,6 +316,7 @@ body{
         padding-top: 30px;
         display: flex;
         flex-direction: row;
+        padding-bottom: 40px;
     }
 
     .titoloSezione{
