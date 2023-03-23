@@ -1,15 +1,8 @@
-var radioButtons = [
-  document.getElementById("rb1"),
-  document.getElementById("rb2"),
-  document.getElementById("rb3"),
-  document.getElementById("rb4")
-]
 
 var risposte = [
   "answer1",
   "answer2",
-  "answer3",
-  "answer4"
+  "answer3"
 ]
 
 var currIndex = 0
@@ -34,7 +27,7 @@ function nextQuestion(){
   domanda = document.getElementById("question")
   domanda.innerHTML = jsonData[currIndex].question
 
-  for (i=0;i<4;i++){
+  for (i=0;i<3;i++){
     document.getElementById(risposte[i]).innerHTML = jsonData[currIndex].answers[i].answer
   }
 

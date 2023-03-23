@@ -204,6 +204,26 @@ body{
     text-decoration: none;
 }
 
+/* == FOOTER == */
+#footer{
+    height: 100px;
+    background-color: var(--menuBgColor);
+    padding: 20px;
+}
+
+.testoCopyright{
+    text-align: center;
+    font-size: 30px;
+}
+
+.copyright{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+
+
 /* == MEDIA QUERY TABLET */
 
 @media screen and (min-width: 767px) {
