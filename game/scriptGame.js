@@ -43,10 +43,10 @@ function checkAnswer(){
 
   if(jsonData[currIndex].correctAns == userAnswer){
     alert('Corretto');
-    nextQuestion(currIndex++)
+    nextQuestion(++currIndex)
   }else{
     alert("Sbagliato")
-    nextQuestion(currIndex++)
+    nextQuestion(++currIndex)
   }
   
 
