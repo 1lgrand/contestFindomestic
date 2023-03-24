@@ -1,0 +1,46 @@
+
+.wrapper{
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea 2 colonne di uguale larghezza */
+    grid-template-rows: repeat(2, 1fr); /* Crea 2 righe di uguale altezza */
+    gap: 15px; /* Aggiunge una spaziatura di 10 px fra gli item */
+}
+
+
+.fieldWrapper label{
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    height: 100%;
+    padding: 5px
+}
+
+.fieldWrapper label img{
+    max-width: 90%;
+    display: block;
+}
+
+
+.fieldWrapper input{
+    display: none;
+}
+
+.fieldWrapper label span{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.fieldWrapper input:checked + label{ /* questo selettore prende la label che si trova accanto all'input ma solo quando l'input è checkato! ecco il trick*/
+    border: 3px solid var(--menuBgColor);
+    display: flex;
+} 
