@@ -59,4 +59,5 @@ function useBonus(){
 function setAnswer(id){
   userAnswer = document.getElementById(id).textContent
   console.log(userAnswer)
+  checkAnswer()
 }
