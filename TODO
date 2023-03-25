@@ -1,28 +1,22 @@
-Sito: 
-Aggiungere responsive TABLET e DESKTOP
-Centrare titolo navbar
-Implementare slide-out menu
-
-Design:
-Aggiungere testi sensati alla pagina
-Progettazione delle successive 3 pagine
-
 CHECKLIST:
 
-
+⬜️ STYLES
+ L ❌️ Pulire i file CSS levando i doppioni presenti in "commons.css"
 
 ⬜️ HOMEPAGE
  L ✅️ Design Completo
  L ✅️ Navbar funzionante
  L ✅️ Sezioni presenti
  L ✅️ Full Responsive
+ |  L ❌️ Aggiustare Laptop grande
+ |
  L ✅️ Titolo non centrato
  L ✅️ Sidebar funzionante
  L ✅️ Footer
 
 
 ⬜️ IMPARA
- L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone
+ L ❌️ Fixare Navbar: quando si crea un elemento la navbar si sovrappone -[//Levare il fixed]
  L ❌️ Design
  L ❌️ Collegamento alla Home
  L ❌️ Footer

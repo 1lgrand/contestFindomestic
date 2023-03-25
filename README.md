@@ -1,6 +1,16 @@
 # Contest Findomestic
 Progetto per il contest "Manager Of Financial Literacy."
 
+# Indice:
+
+[Accedi]
+[Pagine]
+[Stile]
+[Autori]
+[TODO]
+
+
+
 ## Insegnare l'educazione finanziaria ai bambini
 
 Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli strumenti finanizari
@@ -26,10 +36,13 @@ Il sito ha l'obiettivo di educare i bambini all'uso e alla consoscenza degli str
 
 <img src="readmeSrc\colorPalette.png" alt="palette" width="40%" height="40%">
 
-# AUTHORS
+# Autori
 
-Made By:
+Realizzato da:
 
 - [DE MARZO ALESSANDRO] <a>https://github.com/1lgrand</a>
 - [DE GIOSA SIMONE] <a>https://github.com/side223</a>
 - [ARMENISE MARCO] <a>https://github.com/MarcuccioArme</a>
+
+
+<a href="TODO">Style Guide</a>
