@@ -2,6 +2,24 @@
 /* Importiamo gli stili comuni */
 @import "commons.css";
 
+/* == NAVBAR ==*/
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color:transparent;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    z-index: 11;
+}
+
+.navbar.scrollata {
+    background-color: var(--navColor);
+  }
+
 
 .intro{
     background-image: url('../images/homeImages/savingMoney.jpg');
