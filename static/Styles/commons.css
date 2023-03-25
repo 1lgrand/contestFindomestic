@@ -103,11 +103,6 @@ body{
     color: #171c1c;
     font-weight: 400;
     font-size: 15px;
-    /* Questi stili sono sbabliati, andrebbero messi in una classe a parte. In questa classe dovrebbero esserci solo regole di tipografia */
-    /*
-    margin-left: 20px;
-    margin-right: 20px;
-    */
 }
 
 
@@ -127,4 +122,101 @@ body{
     color: white;
     font-size: small;
     text-align: center;
+}
+
+/* == MEDIA QUERY TABLET */
+
+@media screen and (min-width: 767px) {
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40;
+    }
+    
+    .menuIcon {
+        order: -1;
+        margin-right: auto;
+    }
+
+    .menuIcon:hover {
+        order: -1;
+        margin-right: auto;
+        cursor: pointer;
+    }
+      
+    .titolo {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 24.6%;
+    }
+      
+
+}
+
+
+/* == LAPTOP == */
+
+
+@media screen and (min-width: 790px) {
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40;
+    }
+    
+    .menuIcon {
+        order: -1;
+        margin-right: auto;
+    }
+
+    .menuIcon:hover {
+        order: -1;
+        margin-right: auto;
+        cursor: pointer;
+    }
+      
+    .titolo {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 24.6%;
+    }
+      
+
+}
+
+/* == LAPTOP GRANDE == */
+
+@media screen and (min-width:1439px) {
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40;
+    }
+    
+    .menuIcon {
+        order: -1;
+        margin-right: auto;
+    }
+
+    .menuIcon:hover {
+        order: -1;
+        margin-right: auto;
+        cursor: pointer;
+    }
+      
+    .titolo {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 24.6%;
+    }
+      
 }
