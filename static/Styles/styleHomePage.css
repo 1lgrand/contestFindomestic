@@ -121,9 +121,9 @@
 
 /* == FOOTER == */
 #footer{
-    height: 100px;
     background-color: var(--menuBgColor);
     padding: 20px;
+    margin-bottom: 0;
 }
 
 .testoCopyright{
