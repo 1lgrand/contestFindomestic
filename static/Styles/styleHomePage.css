@@ -119,24 +119,6 @@
     text-decoration: none;
 }
 
-/* == FOOTER == */
-#footer{
-    background-color: var(--menuBgColor);
-    padding: 20px;
-    margin-bottom: 0;
-}
-
-.testoCopyright{
-    text-align: center;
-    font-size: 30px;
-}
-
-.copyright{
-    color: white;
-    font-size: small;
-    text-align: center;
-}
-
 
 
 /* == MEDIA QUERY TABLET */
