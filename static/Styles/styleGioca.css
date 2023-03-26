@@ -210,7 +210,18 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+/* == GAME GUI == */
+.answersContainer{
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
 
+}
+
+.gameDiv{
+    text-align: center;
+}
 
 /* == MEDIA QUERY TABLET */
 

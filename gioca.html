@@ -42,43 +42,18 @@
 
     </div>
 
-    <div id="gameDiv">
-        
-        <table style="text-align: center;" name="tabella" id="card">
-            <tr>
-                <td colspan="2" class="testo BonusDisponibili" >Bonus Disponibili<p id="nBonus testo" class="testo nBonus">3</p></td>
-            </tr>
 
-            <tr>
-                <th colspan="2" class="domanda testo" id="question">LOADING</th>
-            </tr>
 
-            <tr>
-                <td><p id="answer1" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda1</p></td>
-            </tr>
+        <p class="domanda testo"  id="question"></p>
 
-            <tr>
-                <td><p id="answer2" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda2</p></td>
-            </tr>
-
-            <tr>
-                <td><p id="answer3" name="answer" onclick="setAnswer(this.id)" class="answer testo">Domanda3</p></td>
-            </tr>
-
-            <tr>
-                <td><p id="answer4" name="answer" onclick="setAnswer(this.id)" class="answer bonus testo">Domanda4</p></td>
-            </tr>
-
-            <tr>
-                <td><input type="button" value="Usa Bonus" onclick="useBonus()"></td>
-            </tr>
-
-            <tr>
-                <td class="points testo">Points <span id="points" class="testo points">0</span></td>
-            </tr>
-
-        </table>
+        <br>
+    <div class="answersContainer">
+        <p id="answer1" name="answer" onclick="setAnswer(this.id)" class="answer testo answerItem"></p>
+        <p id="answer2" name="answer" onclick="setAnswer(this.id)" class="answer testo answerItem"></p>
+        <p id="answer3" name="answer" onclick="setAnswer(this.id)" class="answer testo answerItem"></p>
+        <p id="answer4" name="answer" onclick="setAnswer(this.id)" class="answer testo answerItem"></p>
     </div>
+
 
 </body>
 </html>
