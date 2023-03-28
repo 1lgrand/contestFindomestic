@@ -24,7 +24,8 @@
 .intro{
     background-image: url('../images/homeImages/savingMoney.jpg');
     background-size: cover;
-    height: 400px;
+    height: 100vh;
+    background-position:center ;
     display: flex;
     align-items: center;
     justify-content: center;
