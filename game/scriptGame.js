@@ -16,7 +16,7 @@ function loadGame(){
 
   nextQuestion(0)
   
-  game = document.getElementById("gameDiv")
+  game = document.getElementById("answersContainer")
   game.style.visibility = 'visible'
 }
 
