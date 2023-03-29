@@ -131,6 +131,13 @@ body{
     text-decoration: none;
 }
 
+.sidebar-link:active{
+    font-family: 'Poppins','sans serif';
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+
 .sidebar-link:visited{
     font-family: 'Poppins','sans serif';
     font-size: 22px;
