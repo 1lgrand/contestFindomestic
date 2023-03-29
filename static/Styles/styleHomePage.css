@@ -52,12 +52,6 @@
     flex-direction: column;
 }
 
-.titoloSezione{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 30px;
-    color: var(--textColor);
-}
 
 .testoSezione{
     color: #171c1c;

@@ -16,3 +16,12 @@
     text-decoration: none;
 }
 
+.intro{
+    background-image: url('../images/Fileoriginali/imparaPage.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
