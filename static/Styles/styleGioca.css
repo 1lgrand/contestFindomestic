@@ -158,6 +158,7 @@ body{
     display: block;
     margin-left: 8%;
     margin-right: 8%;
+    padding-bottom: 25px;
 
 }
 
@@ -172,7 +173,6 @@ body{
 .playButton{
     transition-duration: 0.4s;
     border-color:transparent;
-    margin-top: 23px;
     text-align: center;
     border-radius: 20px;
     font-size: 18px;
@@ -213,12 +213,12 @@ body{
 /* == GAME GUI == */
 .answersContainer{
     display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
     grid-template-columns: auto auto;
-    padding-right: 24.5%;
-
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
 }
+
 
 .gameDiv{
     text-align: center;
@@ -366,7 +366,7 @@ body{
 
 /* == GAME == */
 
-#gameDiv{
+/*#gameDiv{
     padding-top: 10vh;
     padding-bottom: 15vh;
     display: flex;
@@ -374,7 +374,7 @@ body{
     visibility: hidden;    
     text-align: center;
     margin: auto;
-}
+}*/
 
 .BonusDisponibili{
     color: #171c1c;
@@ -390,20 +390,20 @@ body{
 
 .domanda{
     color: #171c1c;
-    padding: 10px 20px 5px 5px;
+    text-align: center;
     font-size: 15px;
+    padding-top: 1rem;
 }
 
 .answer{
-    margin: 10px;
     color: #ffffff;
     font-size: 20px;
     background-color: #006e35;
     width: 140px;
     height: 35px;
     text-align: center;
-    margin-left: 20%;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .points{
