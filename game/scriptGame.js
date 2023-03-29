@@ -16,8 +16,11 @@ function loadGame(){
 
   nextQuestion(0)
   
-  game = document.getElementById("answersContainer")
-  game.style.visibility = 'visible'
+  document.querySelector("#answersContainer").classList.toggle("hidden")
+
+
+
+
 }
 
 
