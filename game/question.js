@@ -1,6 +1,6 @@
 var jsonData = [
     {
-      "question": "Il valore nominale del denaro, è scritto sulla banconota o sulla moneta",
+      "question": "Il valore nominale del denaro, è scritto sulla banconota o sulla moneta.",
       "answers": [
         {"answer": "Vero"},
         {"answer": "Falso"},
