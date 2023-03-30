@@ -1,14 +1,14 @@
 var jsonData = [
     {
-      "question": "Qual è la capitale di Italia?",
+      "question": "Il valore nominale del denaro, è scritto sulla banconota o sulla moneta",
       "answers": [
-        {"answer": "Napoli"},
-        {"answer": "Bari"},
-        {"answer": "Roma"},
-        {"answer": "Lecce"}
+        {"answer": "Vero"},
+        {"answer": "Falso"},
+        {"answer": "Solo sulla banconota"},
+        {"answer": "Solo sulla moneta"}
       ],
     
-      "correctAns":"Roma"
+      "correctAns":"Vero"
 
     },
   

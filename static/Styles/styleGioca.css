@@ -162,6 +162,7 @@ body{
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', 'Sans Serif';
+    padding-bottom: 35rem;
 }
 
 .regole{
@@ -218,15 +219,6 @@ body{
     height: 50px;
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-/* == GAME GUI == */
-.answersContainer{
-    display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 15px;
-    column-gap: 15px;
-    justify-content: center;
 }
 
 
@@ -386,6 +378,24 @@ body{
     margin: auto;
 }*/
 
+.answersContainer{
+    display: grid;
+    grid-template-columns: auto ;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.answerItem{
+    display: flex;
+    background-color: #006e35;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .BonusDisponibili{
     color: #171c1c;
     font-size: 24px;
@@ -406,15 +416,10 @@ body{
 }
 
 .answer{
-    color: #ffffff;
-    font-size: 20px;
-    background-color: #006e35;
-    width: 140px;
-    height: 35px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 15px;
+    margin: auto;
+
 }
+
 
 .points{
     padding-top: 2vh;
