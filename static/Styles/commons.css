@@ -99,6 +99,7 @@ body{
     padding-bottom: 20px;
     font-size: 30px;
     color: var(--textColor);
+    font-family: 'Nunito','sans serif';
 }
 
 .testoSezione{
