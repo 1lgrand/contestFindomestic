@@ -1,17 +1,3 @@
 @import url("commons.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-
-.linkHome:link{
-    font-family: 'Poppins','sans serif';
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.linkHome:visited{
-    font-family: 'Poppins','sans serif';
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-}

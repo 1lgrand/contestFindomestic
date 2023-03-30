@@ -12,14 +12,17 @@ var userAnswer
 function loadGame(){
 
   startButton = document.getElementById("button")
-  startButton.style.disabled
+  startButton.disabled = true
 
   nextQuestion(0)
   
   document.querySelector("#answersContainer").classList.toggle("hidden")
 
-
-
+  var elemento = document.querySelector('#question');
+  
+  setTimeout(function() {
+    elemento.scrollIntoView({ behavior: 'smooth' });
+  }, 50);
 
 }
 
