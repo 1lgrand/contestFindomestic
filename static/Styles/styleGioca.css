@@ -76,6 +76,25 @@
         height: 53px;
     }
 
+    .answersContainer{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+        column-gap: 10px;
+        
+    }
+
+    .answerItem{
+        display: flex;
+        width: 200px;
+        height: 100px;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+
 }
 
 
