@@ -7,7 +7,7 @@ var risposte = [
 ]
 var currIndex = 0
 var userAnswer
-
+var nBonus = 3;
 
 function loadGame(){
 
@@ -26,11 +26,20 @@ function loadGame(){
 
 }
 
-
+function activeBonus(){
+  if(nBonus>0){
+    nBonus--;
+    nextQuestion(1)
+  }else{
+    console.log("Errore")
+  }
+}
 
 
 function nextQuestion(currIndex){
 
+
+  document.getElementById("bonusRimanenti").innerHTML = nBonus
 
   domanda = document.getElementById("question")
   domanda.innerHTML = jsonData[currIndex].question
