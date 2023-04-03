@@ -28,12 +28,12 @@
 }
 
 
-.sezione{
+/*.sezione{
     text-align: center;
     display: flex;
     flex-direction: column;
     height: fit-content;
-}
+}*/
 
 
 .testoSezione{
@@ -64,6 +64,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .intro{
     background-image: url('../images/homeImages/savingMoney.jpg');

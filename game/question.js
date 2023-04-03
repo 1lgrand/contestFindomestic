@@ -13,16 +13,42 @@ var jsonData = [
     },
   
     {
-      "question": "Qual è il mio colore preferito? ",
+      "question": "Qual è il primo obiettivo dell'Agenda 2030? ",
       "answers": [
-        {"answer": "Giallo"},
-        {"answer": "Arancione"},
-        {"answer": "Viola"},
-        {"answer": "Bianco"}
+        {"answer": "No Povertà"},
+        {"answer": "Uguaglianza di genere"},
+        {"answer": "Pesca Sostenibile"},
+        {"answer": "Benessere e salute"}
       ],
 
-      "correctAns":"Arancione"
+      "correctAns":"No Povertà"
     },
+
+    {
+      "question": "Quanti sono gli obiettivi Agenda 2030? ",
+      "answers": [
+        {"answer": "8"},
+        {"answer": "21"},
+        {"answer": "17"},
+        {"answer": "3"}
+      ],
+
+      "correctAns":"17"
+    },
+
+    {
+      "question": "Qual è l'obiettivo del SDG1?",
+      "answers": [
+        {"answer": "Porre fine alla povertà entro il 2020"},
+        {"answer": "Porre fine alla povertà entro il 2030"},
+        {"answer": "Ridurre del 50% la povertà estrema entro il 2030"},
+        {"answer": "Regalare soldi a tutti"}
+      ],
+
+      "correctAns":"Porre fine alla povertà entro il 2030"
+    },
+
+    
 
     
 

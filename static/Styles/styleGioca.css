@@ -69,8 +69,7 @@ body {
 
 /* == MEDIA QUERY TABLET */
 
-@media screen and (max-width: 767px) {
-    
+@media screen and (min-width: 767px) {
     
     .titolo {
         order: 2;
@@ -155,11 +154,16 @@ body {
 
 @media screen and (min-width:1439px) {
     
+    #imageSDG1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
 
     .regole{
         font-size: 27px;
         margin: 0 30%;
-
     }
 
     .collegamentoImpara{ 

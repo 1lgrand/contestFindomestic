@@ -31,7 +31,7 @@ function activeBonus(){
     nBonus--;
     nextQuestion(1)
   }else{
-    console.log("Errore")
+
   }
 }
 
@@ -47,7 +47,6 @@ function nextQuestion(currIndex){
   console.log(jsonData[currIndex].question) 
   for (i=0;i<risposte.length;i++){
     document.getElementById(risposte[i]).innerHTML = jsonData[currIndex].answers[i].answer
-    console.log(jsonData[currIndex].answers[i].answer)
   }
 
 }
@@ -57,10 +56,10 @@ function checkAnswer(){
   console.log(jsonData[currIndex].correctAns + " " + userAnswer)
 
   if(jsonData[currIndex].correctAns == userAnswer){
-    alert('Corretto');
+    console.log("[DEBUG] Corretto!")
     nextQuestion(++currIndex)
   }else{
-    alert("Sbagliato")
+    console.log("[DEBUG] Errato!")
     nextQuestion(++currIndex)
   }
   
@@ -73,6 +72,5 @@ function useBonus(){
 
 function setAnswer(id){
   userAnswer = document.getElementById(id).textContent
-  console.log(userAnswer)
   checkAnswer()
 }
