@@ -120,6 +120,31 @@
         margin: 50px;
     }
 
+    .imageView{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imageView-item{
+        width: 150px;
+        height: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: all ease 0.2s;
+
+    }
+
+    .imageView-item:hover{
+        width: 153px;
+        height: 153px;
+        padding-left: 20px;
+        padding-right: 20px;
+        filter: drop-shadow(10px 15px 5px rgba(0,0,0,0.3));
+        transition: all ease 0.2s;
+    }   
+
 
 }
 
@@ -166,6 +191,24 @@
         height: fit-content;
     }
 
+    .imageView-item{
+        width: 160px;
+        height: 160px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: all ease 0.2s;
+
+    }
+
+    .imageView-item:hover{
+        width: 163px;
+        height: 163px;
+        padding-left: 20px;
+        padding-right: 20px;
+        filter: drop-shadow(10px 15px 5px rgba(0,0,0,0.3));
+        transition: all ease 0.2s;
+    }   
+
 }
 
 /* == LAPTOP GRANDE == */
@@ -206,5 +249,23 @@
     .titoloSezione{
         padding-top: 1rem;
     }
+
+    .imageView-item{
+        width: 170px;
+        height: 170px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: all ease 0.2s;
+
+    }
+
+    .imageView-item:hover{
+        width: 173px;
+        height: 173px;
+        padding-left: 20px;
+        padding-right: 20px;
+        filter: drop-shadow(10px 15px 5px rgba(0,0,0,0.3));
+        transition: all ease 0.2s;
+    }   
 
 }
