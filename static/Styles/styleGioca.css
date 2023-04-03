@@ -158,7 +158,6 @@
 
 .answersContainer{
     display: grid;
-    grid-template-columns: auto ;
     row-gap: 15px;
     column-gap: 15px;
     justify-content: center;
@@ -217,6 +216,7 @@
 
 .testoBonusRimanenti{
     color: #171c1c;
+    padding-top: 0.6vh;
 }
 
 #bonusRimanenti{
