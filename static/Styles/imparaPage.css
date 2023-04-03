@@ -1,15 +1,7 @@
 @import "commons.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-body::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-body {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
+
 
 .linkHome:link{
     font-family: 'Poppins','sans serif';
@@ -35,23 +27,19 @@ body {
     justify-content: center;
 }
 
-.sectionDiv{
-    background-color: white;
-    background-image:url("/static/images/icons/bgLine.svg")
-}
 
 .sezione{
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: fit-content;
 }
 
 
 .testoSezione{
     color: #171c1c;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -62,7 +50,16 @@ body {
 
 .sezione1{
     padding-bottom: 40px;
-    background-color: white;
+    background-image: url("../images/icons/greenBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sezione2{
+    padding-bottom: 40px;
+    background-image: url("../images/icons/whiteBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro{
