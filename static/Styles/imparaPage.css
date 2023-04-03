@@ -88,6 +88,20 @@
     background-color: #00803E;
 }
 
+.imageView{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageView-item{
+    width: 100px;
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 
 
