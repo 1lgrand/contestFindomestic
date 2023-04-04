@@ -192,6 +192,18 @@ body {
         cursor: pointer;
     }
 
+    #modal-box{
+        position: fixed;
+        top: 20%;
+        left: 30%;
+        width: 40%;
+        height: 50%;
+        background-color: #cfcfcf;
+        transition: all 0.2s ease-in-out;
+        border-radius: 10px;
+        filter: drop-shadow(0px 15px 4px #707270);
+    }
+
 }
 
 
@@ -285,6 +297,17 @@ body {
 }
 
 #modal-box{
-    border: 1px solid black;
-    
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 50%;
+    background-color: #cfcfcf;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+    filter: drop-shadow(0px 15px 4px #707270);
+}
+
+#modal-box.hidden{
+    top: -100%
 }
