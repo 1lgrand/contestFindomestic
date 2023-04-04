@@ -25,6 +25,20 @@ body{
     background-color: var(--bg-color);  
 }
 
+#modal-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02331a;
+    transition: all 0.2s ease-in-out;
+}
+
+#modal-box.hidden{
+    top: -100%
+}
+
 .testo{
     font-family: 'Poppins','sans serif';
     font-size: 18px;

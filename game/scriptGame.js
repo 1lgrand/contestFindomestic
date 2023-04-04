@@ -56,7 +56,7 @@ function nextQuestion(currIndex){
 function checkAnswer(){
 
   if(currIndex+2 > jsonData.length){
-    alert("FINE DEL QUIZ")
+    document.querySelector('#modal-box').classList.toggle("hidden")
   }else{
     if(jsonData[currIndex].correctAns == userAnswer){
       punteggio++;
