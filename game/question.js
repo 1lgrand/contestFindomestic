@@ -60,8 +60,18 @@ var jsonData = [
       "correctAns":"E' sicuramente una truffa"
     },
 
-    
+    {
+      "question": "L'agenda 2030 è stata fondata nel 2030?",
+      "answers": [
+        {"answer": "Si"},
+        {"answer": "No"},
+        {"answer": "No nel 2015"},
+        {"answer": "Devono ancora scriverla"}
+      ],
 
-    
+      "correctAns":"No nel 2015"
+    },
 
 ]
+
+nDomandeArray = jsonData.length;

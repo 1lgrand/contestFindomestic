@@ -5,9 +5,11 @@ var risposte = [
   "answer3",
   "answer4"
 ]
+
 var currIndex = 0
 var userAnswer
 var nBonus = 3;
+var punteggio = 0
 
 function loadGame(){
 
@@ -53,18 +55,17 @@ function nextQuestion(currIndex){
 
 function checkAnswer(){
 
-  console.log(jsonData[currIndex].correctAns + " " + userAnswer)
 
-  if(jsonData[currIndex].correctAns == userAnswer){
-    console.log("[DEBUG] Corretto!")
-    nextQuestion(++currIndex)
-  }else{
-    console.log("[DEBUG] Errato!")
-    nextQuestion(++currIndex)
+    if(jsonData[currIndex].correctAns == userAnswer){
+      punteggio++;
+      console.log("[DEBUG] Corretto!" + punteggio)
+      nextQuestion(++currIndex)
+    }else{
+      console.log("[DEBUG] Errato!")
+      nextQuestion(++currIndex)
+    }
   }
-  
 
-}
 
 function useBonus(){
   console.log("Bonus Usato")
