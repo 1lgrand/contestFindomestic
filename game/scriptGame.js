@@ -98,19 +98,19 @@ function visualizzaPunteggio(){
 
     if(perc >= 90){
       frase.textContent = "WOW"
-      emjHtml.src = "/static/images/emoji-modalBox/moneyEMJ.svg"
+      emjHtml.src = "game/assets/moneyEMJ.svg"
       emjHtml.alt = "Image1"
     }else if(perc < 90 && perc >= 60){
       frase.textContent = "COMPLIMENTI!"
-      emjHtml.src = "/static/images/emoji-modalBox/linguaEMJ.svg"
+      emjHtml.src = "game/assets/linguaEMJ.svg"
       emjHtml.alt = "Image2"
     }else if(perc < 60 && perc >= 40){
       frase.textContent = "STUDIA MEGLIO!"
-      emjHtml.src = "/static/images/emoji-modalBox/shockEMJ.svg"
+      emjHtml.src = "game/assets/shockEMJ.svg"
       emjHtml.alt = "Image3"
     }else{
       frase.textContent = "NON CI SIAMO"
-      emjHtml.src = "/static/images/emoji-modalBox/sadEMJ.svg"
+      emjHtml.src = "game/assets/sadEMJ.svg"
       emjHtml.alt = "Image4"
 
     }
