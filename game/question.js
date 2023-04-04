@@ -42,10 +42,22 @@ var jsonData = [
         {"answer": "Porre fine alla povertà entro il 2020"},
         {"answer": "Porre fine alla povertà entro il 2030"},
         {"answer": "Ridurre del 50% la povertà estrema entro il 2030"},
-        {"answer": "Regalare soldi a tutti"}
+        {"answer": "Stampare più soldi entro il 2030"}
       ],
 
       "correctAns":"Porre fine alla povertà entro il 2030"
+    },
+
+    {
+      "question": "Se ti proponessi una macchina ad un prezzo basso, senza mai fartela vedere, cosa faresti?",
+      "answers": [
+        {"answer": "La acquisterei immediatamente"},
+        {"answer": "Dubiterei del prezzo ma la acquisterei"},
+        {"answer": "E' sicuramente una truffa"},
+        {"answer": "Chiederei una foto per essere sicuro"}
+      ],
+
+      "correctAns":"E' sicuramente una truffa"
     },
 
     
