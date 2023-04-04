@@ -28,14 +28,7 @@ function loadGame(){
 
 }
 
-function activeBonus(){
-  if(nBonus>0){
-    nBonus--;
-    nextQuestion(1)
-  }else{
 
-  }
-}
 
 
 function nextQuestion(currIndex){
@@ -49,29 +42,81 @@ function nextQuestion(currIndex){
   for (i=0;i<risposte.length;i++){
     document.getElementById(risposte[i]).innerHTML = jsonData[currIndex].answers[i].answer
   }
-
+  
 }
 
 function checkAnswer(){
 
-  if(currIndex+2 > jsonData.length){
-    document.querySelector('#modal-box').classList.toggle("hidden")
-  }else{
     if(jsonData[currIndex].correctAns == userAnswer){
       punteggio++;
       console.log("[DEBUG] Corretto!" + punteggio)
-      nextQuestion(++currIndex)
+      if(currIndex+1 == jsonData.length){
+        visualizzaPunteggio()
+      }else{
+        nextQuestion(++currIndex)
+      }
+      
     }else{
       console.log("[DEBUG] Errato!")
-      nextQuestion(++currIndex)
+      if(currIndex+1 == jsonData.length){
+        visualizzaPunteggio()
+      }else{
+        nextQuestion(++currIndex)
+      }
     }
-  }
+}
+
+function activeBonus(){
+  if(nBonus>0){
+    nBonus--;
+    nextQuestion(++currIndex)
+  }else{
 
   }
+}
+
+/**
+ * VOTO >= 90 -- WOW | moneyEMJ
+ * VOTO <90 && >= -- 60 COMPLIMENTI | linguaEMJ
+ * VOTO < 60 >= 40 -- STUDIA MEGLIO | shockEMJ
+ * VOTO <40 -- NON CI SIAMO | sadEMJ
+ */
+
+function visualizzaPunteggio(){
+    console.log(punteggio)
+    frase = document.querySelector("#testoComplimenti")
+    punteggioHtml = document.querySelector("#points")
+    emjHtml = document.querySelector("#emoji")
+    document.querySelector('#modal-box').classList.toggle("hidden")
+    let perc = Math.round(calcolaPercentuale())
+    console.log(perc)
+
+    punteggioHtml.textContent = punteggio.toString()
+
+    if(perc >= 90){
+      frase.textContent = "WOW"
+      emjHtml.src = "/static/images/emoji-modalBox/moneyEMJ.svg"
+      emjHtml.alt = "Image1"
+    }else if(perc < 90 && perc >= 60){
+      frase.textContent = "COMPLIMENTI!"
+      emjHtml.src = "/static/images/emoji-modalBox/linguaEMJ.svg"
+      emjHtml.alt = "Image2"
+    }else if(perc < 60 && perc >= 40){
+      frase.textContent = "STUDIA MEGLIO!"
+      emjHtml.src = "/static/images/emoji-modalBox/shock.svg"
+      emjHtml.alt = "Image3"
+    }else{
+      frase.textContent = "NON CI SIAMO"
+      emjHtml.src = "/static/images/emoji-modalBox/sad.svg"
+      emjHtml.alt = "Image4"
+
+    }
+
+}
 
 
-function useBonus(){
-  console.log("Bonus Usato")
+function calcolaPercentuale(){
+  return (100*punteggio)/jsonData.length
 }
 
 function setAnswer(id){
