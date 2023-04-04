@@ -24,3 +24,21 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+.persona img{
+  width: 30%;
+  border-radius: 50%;
+}
+
+.autori{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.persona{
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
