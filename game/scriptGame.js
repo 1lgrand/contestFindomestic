@@ -103,11 +103,11 @@ function visualizzaPunteggio(){
       emjHtml.alt = "Image2"
     }else if(perc < 60 && perc >= 40){
       frase.textContent = "STUDIA MEGLIO!"
-      emjHtml.src = "/static/images/emoji-modalBox/shock.svg"
+      emjHtml.src = "/static/images/emoji-modalBox/shockEMJ.svg"
       emjHtml.alt = "Image3"
     }else{
       frase.textContent = "NON CI SIAMO"
-      emjHtml.src = "/static/images/emoji-modalBox/sad.svg"
+      emjHtml.src = "/static/images/emoji-modalBox/sadEMJ.svg"
       emjHtml.alt = "Image4"
 
     }
