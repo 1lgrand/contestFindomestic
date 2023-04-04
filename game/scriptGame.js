@@ -95,7 +95,7 @@ function visualizzaPunteggio(){
     console.log(perc)
 
     punteggioHtml.textContent = punteggio.toString()
-
+    document.body.style.overflow = "hidden";
     if(perc >= 90){
       frase.textContent = "WOW"
       emjHtml.src = "game/assets/moneyEMJ.svg"
@@ -112,7 +112,6 @@ function visualizzaPunteggio(){
       frase.textContent = "NON CI SIAMO"
       emjHtml.src = "game/assets/sadEMJ.svg"
       emjHtml.alt = "Image4"
-
     }
 
 }
