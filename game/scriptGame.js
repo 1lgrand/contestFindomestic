@@ -15,7 +15,7 @@ function loadGame(){
 
   startButton = document.getElementById("button")
   startButton.disabled = true
-
+  console.log("NUMERO DELLE DOMANDE: [" + jsonData.length + "]")
   nextQuestion(0)
   
   document.querySelector("#answersContainer").classList.toggle("hidden")
@@ -55,7 +55,9 @@ function nextQuestion(currIndex){
 
 function checkAnswer(){
 
-
+  if(currIndex+2 > jsonData.length){
+    alert("FINE DEL QUIZ")
+  }else{
     if(jsonData[currIndex].correctAns == userAnswer){
       punteggio++;
       console.log("[DEBUG] Corretto!" + punteggio)
@@ -64,6 +66,8 @@ function checkAnswer(){
       console.log("[DEBUG] Errato!")
       nextQuestion(++currIndex)
     }
+  }
+
   }
 
 
