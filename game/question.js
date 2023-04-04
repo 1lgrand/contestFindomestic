@@ -68,10 +68,7 @@ var jsonData = [
         {"answer": "No nel 2015"},
         {"answer": "Devono ancora scriverla"}
       ],
-
       "correctAns":"No nel 2015"
     },
-
 ]
 
-nDomandeArray = jsonData.length;
