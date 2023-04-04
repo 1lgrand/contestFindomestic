@@ -84,11 +84,14 @@ function activeBonus(){
 
 function visualizzaPunteggio(){
     console.log(punteggio)
+
     frase = document.querySelector("#testoComplimenti")
     punteggioHtml = document.querySelector("#points")
     emjHtml = document.querySelector("#emoji")
     document.querySelector('#modal-box').classList.toggle("hidden")
+
     let perc = Math.round(calcolaPercentuale())
+
     console.log(perc)
 
     punteggioHtml.textContent = punteggio.toString()
@@ -122,4 +125,8 @@ function calcolaPercentuale(){
 function setAnswer(id){
   userAnswer = document.getElementById(id).textContent
   checkAnswer()
+}
+
+function giocaAncora(){
+  window.location.reload();
 }
