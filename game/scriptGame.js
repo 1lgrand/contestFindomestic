@@ -46,7 +46,6 @@ function nextQuestion(currIndex){
   domanda = document.getElementById("question")
   domanda.innerHTML = jsonData[currIndex].question
 
-  console.log(jsonData[currIndex].question) 
   for (i=0;i<risposte.length;i++){
     document.getElementById(risposte[i]).innerHTML = jsonData[currIndex].answers[i].answer
   }
