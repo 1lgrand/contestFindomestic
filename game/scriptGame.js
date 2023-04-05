@@ -11,6 +11,21 @@ var userAnswer
 var nBonus = 3;
 var punteggio = 0
 
+function inizialize(){
+  currIndex = 0;
+  nBonus = 3;
+  punteggio = 0;
+  document.querySelector("#answersContainer").classList.add("hidden")
+  document.querySelector('#modal-box').classList.add("hidden")
+  document.querySelector('button').disabled = false
+  document.getElementById("question").textContent = ""
+  document.body.style.overflow = "visible";
+  window.scrollTo(0,0)
+  
+
+
+}
+
 function loadGame(){
 
   startButton = document.getElementById("button")
@@ -127,5 +142,5 @@ function setAnswer(id){
 }
 
 function giocaAncora(){
-  window.location.reload();
+  inizialize()
 }
