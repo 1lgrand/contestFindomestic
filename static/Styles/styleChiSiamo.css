@@ -34,11 +34,17 @@ body {
   justify-content: center;
   flex-direction: column;
   display: flex;
+  width: 40%;
+  padding-left: 5rem;
 }
 
 .persona{
-  justify-content: center;
   flex-direction: row;
   display: flex;
   align-items: center;
+  padding-bottom: 1rem;
+}
+
+.personaTitolo{
+  padding-left: 2rem;
 }
