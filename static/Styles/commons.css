@@ -133,10 +133,10 @@ body{
 
 #menuLaterale {
     position: fixed;
-    top: 62px;
+    top: 64px;
     left: -300px; /* Cambia right in left */
     width: 300px;
-    height: 100%;
+    height: 99%;
     background-color: #0e883b;
     z-index: 10;
     transition: all 0.3s ease-in-out;
