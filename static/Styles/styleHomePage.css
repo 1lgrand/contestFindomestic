@@ -101,7 +101,11 @@ body {
     width: 50%;
     padding-left: 1.5rem;
 }
-
+@media screen and (min-width: 425px) {
+    
+    .testoSezione{ font-size: 25px;}
+   
+}
 
 /* == MEDIA QUERY TABLET */
 
