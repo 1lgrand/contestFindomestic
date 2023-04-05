@@ -61,6 +61,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 
 
@@ -108,7 +109,6 @@ body {
     
 
     .sezione{
-        padding-top: 30px;
         display: flex;
         flex-direction: row;
     }
@@ -146,15 +146,13 @@ body {
         order: 2;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 24.6%;
+
     }
       
 
     .sezione{
-        padding-top: 30px;
         display: flex;
         flex-direction: row;
-        padding-bottom: 40px;
     }
 
     .sezione3{
@@ -181,7 +179,6 @@ body {
 
     .sezione2{
         height: max-content;
-        padding: 40px;
     }
 
     .titoloSezione{
@@ -202,15 +199,13 @@ body {
         order: 2;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 24.6%;
     }
       
 
     .sezione{
-        padding-top: 30px;
         display: flex;
         flex-direction: row;
-        margin: 0 50px;
+        align-items: center;
     }
 
     .sezione3{
@@ -237,7 +232,6 @@ body {
 
     .sezione2{
         height: max-content;
-        padding: 40px;
     }
 
     .titoloSezione{
