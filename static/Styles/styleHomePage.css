@@ -73,7 +73,6 @@ body {
 }
 
 .sezione1{
-    padding-bottom: 40px;
     background-color: white;
 }
 
@@ -84,24 +83,23 @@ body {
 }
 
 #immagine{
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 80%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .maialino{
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-left: 1.5rem;
 }
-
-
 
 
 /* == MEDIA QUERY TABLET */
@@ -115,15 +113,16 @@ body {
         flex-direction: row;
     }
 
+    .sezione3{
+        flex-direction: row-reverse;
+    }
+
     .testoSezione{
         margin: 50px;
     }
 
     #immagine{
-        margin-left: 10px;
         width: 30%;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
     }
 
     .maialino{
@@ -158,6 +157,11 @@ body {
         padding-bottom: 40px;
     }
 
+    .sezione3{
+        flex-direction: row-reverse;
+    }
+    
+
     .titoloSezione{
         font-size: 40px;
     }
@@ -172,10 +176,7 @@ body {
     }
 
     #immagine{
-        margin-left: 10px;
         width: 40%;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
     }
 
     .sezione2{
@@ -212,6 +213,10 @@ body {
         margin: 0 50px;
     }
 
+    .sezione3{
+        flex-direction: row-reverse;
+    }
+
 
     .titoloSezione{
         font-size: 40px;
@@ -219,9 +224,6 @@ body {
 
     .testoSezione{
         font-size: 25px;
-        width: 1500px;
-        padding-left: 24.5%;
-        padding-right: 10%;
     }
 
     .maialino{
@@ -230,11 +232,7 @@ body {
     }
 
     #immagine{
-        margin-left: 10px;
         width: 250px;
-        padding-bottom: 2.9rem;
-        padding-right: 1rem;
-        margin-bottom: 40px;
     }
 
     .sezione2{
