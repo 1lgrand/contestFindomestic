@@ -27,7 +27,9 @@ body {
 
 .persona img{
   width: 6rem;
+  height: 6rem;
   border-radius: 50%;
+  border: 2px solid var(--headColor);
 }
 
 .autori{
@@ -45,5 +47,14 @@ body {
 }
 
 .personaTitolo{
-  padding-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+span{
+  font-weight: 200;
+  font-size: 15px;
+  padding-top: 2px;
+  border: 1px solid var(--headColor);
+  padding-left: 5px;
+  padding-right: 5px;
 }
