@@ -107,10 +107,12 @@
 .illustration{
     width: 30%;
     display: block;
+    margin-left: 10%; /*Non lo so -- a me non piace vedete voi :)*/
 }
 
 .bold{
     font-weight: 600;
+    background-color: #e1e42dce;
 }
 
 
