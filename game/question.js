@@ -70,5 +70,52 @@ var jsonData = [
       ],
       "correctAns":"No nel 2015"
     },
-]
+
+    {
+      "question": "L'uguaglianza di genere: ",
+      "answers": [
+        {"answer": "Rende uguali uomini e donne"},
+        {"answer": "Pari opportunità per entrambi"},
+        {"answer": "Risolve tutti i problemi."},
+        {"answer": "Ma solo per un genere."}
+      ],
+      "correctAns":"Pari opportunità per entrambi"
+    },
+
+    {
+      "question": "L'istruzione di qualità: ",
+      "answers": [
+        {"answer": "Solo per i più bravi"},
+        {"answer": "Aumentare i voti per tutti"},
+        {"answer": "Riservata solo ai paesi ricchi"},
+        {"answer": "Fornisce i materiali e le strutture per l'istruzione"}
+      ],
+      "correctAns":"Pari opportunità per entrambi"
+    },
+
+    {
+      "question": "I soldi per te quanto sono importanti? ",
+      "answers": [
+        {"answer": "I soldi sono tutto"},
+        {"answer": "I soldi non fanno la felicità"},
+        {"answer": "Non saprei dirlo"},
+        {"answer": "I soldi non sono sempre la via giusta"}
+      ],
+      "correctAns":"I soldi non fanno la felicità"
+    },
+
+    {
+      "question": "Una trappola finanizaria consiste nel rubare il denaro? ",
+      "answers": [
+        {"answer": "Consiste nel tentare la rapina in una banca"},
+        {"answer": "No"},
+        {"answer": "Si"},
+        {"answer": "Si ma solo se lo fai con cattive intenzioni"}
+      ],
+      "correctAns":"Si"
+    },
+
+
+  ]
+
 
