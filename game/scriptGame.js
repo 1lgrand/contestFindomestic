@@ -84,6 +84,7 @@ function checkAnswer(){
 function activeBonus(){
   if(nBonus>0){
     nBonus--;
+    punteggio++;
     nextQuestion(++currIndex)
   }else{
 

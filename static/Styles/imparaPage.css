@@ -104,7 +104,26 @@
     padding-right: 15px;
 }
 
+.illustration{
+    width: 30%;
+    display: block;
+    margin-left: 10%; /*Non lo so -- a me non piace vedete voi :)*/
+}
 
+.bold{
+    font-weight: 600;
+    background-color: #e1e42dce;
+}
+
+.vai_a{
+    margin-top: 10px;
+    background-color: #00803E;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 10px;
+    filter:drop-shadow(10px 15px 5px rgba(1, 196, 82, 0.3));
+    color: white;
+}
 
 
 /* == MEDIA QUERY TABLET */
@@ -147,6 +166,10 @@
         transition: all ease 0.2s;
     }   
 
+    .illustration{
+        width: 20%;
+        display: block;
+    }
 
 }
 
@@ -212,6 +235,15 @@
         transition: all ease 0.2s;
     }   
 
+    .illustration{
+        width: 20%;
+        display: block;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    
+
 }
 
 /* == LAPTOP GRANDE == */
@@ -267,5 +299,12 @@
         filter: drop-shadow(10px 15px 5px rgba(0,0,0,0.3));
         transition: all ease 0.2s;
     }   
+
+    .illustration{
+        width: 10%;
+        display: block;
+        margin-left: 45%;
+        margin-right: 45%;
+    }
 
 }
