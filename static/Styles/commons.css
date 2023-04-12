@@ -55,7 +55,7 @@ body{
 /*================    ## NAVBAR ##  =========================================*/
 
 .navbar{
-    /*position: fixed;*/
+    position: fixed;
     display: flex;
     align-items: center;
     padding: 1rem;
