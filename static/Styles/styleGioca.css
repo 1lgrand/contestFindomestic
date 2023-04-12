@@ -51,6 +51,7 @@ body {
 
 .playButton{
     transition-duration: 0.4s;
+    cursor: pointer;
     border-color:transparent;
     text-align: center;
     border-radius: 20px;
@@ -62,6 +63,9 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.playButton:hover{
+    transform:scale(100px) ;
+}
 
 .gameDiv{
     text-align: center;
