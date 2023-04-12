@@ -161,6 +161,11 @@ body{
     text-decoration: none;
 }
 
+.sidebar-link:active{
+    color: #171c1c;
+    background-color: transparent;
+}
+
 
 .sidebar-link:visited{
     font-family: 'Poppins','sans serif';
@@ -183,7 +188,6 @@ body{
 .linkHome-link:link{
     color: #fff;
 }
-
 
 
 /* == MEDIA QUERY TABLET */
