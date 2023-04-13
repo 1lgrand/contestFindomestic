@@ -35,7 +35,7 @@ function loadGame(){
   
   document.querySelector("#answersContainer").classList.toggle("hidden")
 
-  var elemento = document.querySelector('#question');
+  var elemento = document.querySelector('#goto');
   
   setTimeout(function() {
     elemento.scrollIntoView({ behavior: 'smooth' });
