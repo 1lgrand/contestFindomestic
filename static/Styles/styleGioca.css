@@ -37,6 +37,7 @@ body {
     display: block;
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 6vh;
     padding-bottom: 25px;
 
 }
@@ -181,18 +182,21 @@ body {
     }
 
     .regole{
-        font-size: 27px;
-        margin: 0 30%;
+        font-size: 35px;
+        margin-top: 8vh;
+        margin-right: 5vh;
+        margin-left: 5vh;
     }
 
     .collegamentoImpara{ 
         color: #02331a; 
-        font-size: 27px;
+        font-size: 35px;
     }
 
     .playButton{
-        width: 133px;
-        height: 59px;
+        width: 20vh;
+        height: 8vh;
+        font-size: 28px;
     }
 
     .answersContainer{
