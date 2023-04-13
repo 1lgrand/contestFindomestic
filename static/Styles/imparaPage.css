@@ -66,8 +66,6 @@
     background-size: cover;
 }
 
-
-
 .intro{
     background-image: url('../images/homeImages/savingMoney.jpg');
     background-size: cover;
@@ -149,6 +147,10 @@
         justify-content: center;
     }
 
+    .sezione3{
+        flex-direction: row-reverse;
+    }
+
 
     .imageView{
         display: flex;
@@ -217,6 +219,10 @@
         padding: 40px;
     }
 
+    .sezione3{
+        flex-direction: row-reverse;
+    }
+
     .titoloSezione{
         padding-top: 1rem;
     }
@@ -282,6 +288,10 @@
     .sezione2{
         height: max-content;
         padding: 40px;
+    }
+
+    .sezione3{
+        flex-direction: row-reverse;
     }
 
     .titoloSezione{
