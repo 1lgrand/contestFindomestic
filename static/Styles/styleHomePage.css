@@ -97,12 +97,15 @@ body {
     padding-bottom: 1.5rem;
 }
 
-.maialino{
+#maialino{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+    padding-right: 1.5rem;
     padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 @media screen and (min-width: 425px) {
     
@@ -141,11 +144,8 @@ body {
         width: 40%;
     }
 
-    .maialino{
-        margin-left: 10px;
-        width: 30%;
-        padding-bottom: 3.5rem;
-        padding-right: 1rem;
+    #maialino{
+        width: 35%;
     }
 
 
@@ -185,9 +185,8 @@ body {
         font-size: 25px;
     }
 
-    .maialino{
-        width: 70%;
-        height: 70%;
+    #maialino{
+        width: 35%
     }
 
     #immagine{
