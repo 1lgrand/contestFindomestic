@@ -4,32 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/Styles/styleHomePage.css">
+    <link rel="stylesheet" href="static/Styles/manutenzione.css">
     <title>OOPS...</title>
 </head>
 <body>
 
-    <header style="text-align: center;">
-        <nav class="navbar" id="navbar">
-            <img src="static/images/icons/MenuIcon.svg" class="menuIcon" alt="iconMenu" srcset="">
-            <h1 class="testo titolo">SAVESTER</h1>
-        </nav>
 
-        <aside id="menuLaterale">
-                <div class="lista-laterale">
-                    <ul style="list-style: none;">
-                        <li id="list-item"><a class="sidebar-link" href="imparaPage.html">Impara</a></li>
-                        <li id="list-item"><a class="sidebar-link" href="gioca.html">Gioca</a></li>   
-                        <li id="list-item"><a class="sidebar-link" href="manutenzione.html">Per i genitori</a></li>
-                        <li id="list-item"><a class="sidebar-link" href="chisiamo.html">Chi siamo</a></li>
-                    </ul>
-                </div>
-        </aside>
-    </header>
-
-    <h1>QUALCOSA E' ANDATO STORTO</h1>
-
-    <img src="static/website-maintenance-7295440-5967184.gif" alt="" srcset="">
+    <div class="container">
+        <div class="gifError"><img src="static/website-maintenance-7295440-5967184.gif" id="gif" alt="" srcset=""></div>
+        <div class="scritte">
+            <h1 id="titoloErrore">QUALCOSA E' ANDATO STORTO</h1>
+            <a href="index.html"><button id="errorButton">Torna alla home</button></a>
+        </div>
+    </div>
+    
 
 </body>
 </html>
