@@ -34,10 +34,10 @@ body {
 }
   
 /* == IL PROGETTO ==*/
-#testoSezione2{
-  font-size: 18px;
-  margin-left: 15%;
-  margin-right: 15%;
+#testoSezione2 {
+  font-size: 22px;
+  margin-left: 8%;
+  margin-right: 8%;
   padding-bottom: 4rem;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 #github:hover{
-  width: 26%;
+  width: 20%;
 }
 
 .navbar{
@@ -99,7 +99,7 @@ body {
 
 .chiSiamoParagrafo {
   text-align: center;
-  font-size: 24px;
+  font-size: 24px !important;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -161,9 +161,22 @@ span{
   padding-left: 0vh;
 }
 
+.titoloSezione {
+  font-size: 30px !important;
+}
+
 #github{
   width: 25%;
   padding-bottom: 4.5rem;
+}
+
+#testoSezione2{
+  font-size: 24px;
+
+}
+
+.chiSiamoParagrafo {
+  font-size: 24px !important;
 }
 
 }
@@ -190,6 +203,10 @@ span{
     flex-direction: column;
 }
 
+.titoloSezione {
+  font-size: 40px !important;
+}
+
 #github{
   width: 24%;
 }
@@ -197,6 +214,10 @@ span{
 #testoSezione2{
   font-size: 24px;
 
+}
+
+.chiSiamoParagrafo {
+  font-size: 24px !important;
 }
 
 }
@@ -224,6 +245,18 @@ span{
 
   #testoSezione2{
     font-size: 32px;
+  }
+
+  .titoloSezione {
+    font-size: 40px !important;
+  }
+
+  #github{
+    width: 16%;
+  }
+
+  .chiSiamoParagrafo {
+    font-size: 32px !important;
   }
 
 }
