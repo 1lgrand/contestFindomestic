@@ -263,6 +263,13 @@ body {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.answerItem:hover{
+    border: solid 4px #329C58;
+    background-color: transparent;
+
 }
 
 
@@ -275,7 +282,6 @@ body {
 
 .answer{
     margin: auto;
-
 }
 
 
