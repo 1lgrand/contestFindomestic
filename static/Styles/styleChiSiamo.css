@@ -74,7 +74,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10vh;
+  padding-top: 6vh;
   padding-bottom: 10vh;
   padding-left: 1.5rem;
   text-align: left;
@@ -113,6 +113,10 @@ span{
     grid-template-columns: auto auto auto;
     column-gap: 8vh;
     row-gap: 1vh;
+    text-align: center;
+    padding-left: 0rem;
+    justify-content: center;
+    justify-items: center;
  }
 
   .persona img{
@@ -125,6 +129,11 @@ span{
     align-items: center;
     padding-bottom: 1rem;
     flex-direction: column;
+    width: 12rem;
+}
+
+.personaTitolo{
+  padding-left: 0vh;
 }
 
 }
@@ -159,7 +168,7 @@ span{
     
   .autori{
     flex-direction: row;
-    justify-content: space-between;
+    column-gap: 12rem;
   }
 
   .persona img{
