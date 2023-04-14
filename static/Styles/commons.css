@@ -166,12 +166,6 @@ body{
     padding-left: 2.5vh;
 }
 
-.sidebar-link:active{
-    color: #171c1c;
-    background-color: transparent;
-}
-
-
 .sidebar-link:visited{
     font-family: 'Poppins','sans serif';
     font-size: 22px;
