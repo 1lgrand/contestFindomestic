@@ -97,9 +97,11 @@ body {
   text-align: left;
 }
 
-.chiSiamoParagrafo{
+.chiSiamoParagrafo {
   text-align: center;
-  font-size: 35px !important;
+  font-size: 24px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .persona{
@@ -218,10 +220,10 @@ span{
     align-items: center;
     padding-bottom: 1rem;
     flex-direction: column;
-}
+  }
 
-#testoSezione2{
-  font-size: 32px;
-}
+  #testoSezione2{
+    font-size: 32px;
+  }
 
 }
