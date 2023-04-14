@@ -13,7 +13,7 @@ var jsonData = [
     },
   
     {
-      "question": "Qual è il primo obiettivo dell'Agenda 2030? ",
+      "question": "Qual è il primo obiettivo dell'Agenda 2030?",
       "answers": [
         {"answer": "No Povertà"},
         {"answer": "Uguaglianza di genere"},
@@ -25,7 +25,7 @@ var jsonData = [
     },
 
     {
-      "question": "Quanti sono gli obiettivi Agenda 2030? ",
+      "question": "Quanti sono gli obiettivi Agenda 2030?",
       "answers": [
         {"answer": "8"},
         {"answer": "21"},
@@ -53,11 +53,11 @@ var jsonData = [
       "answers": [
         {"answer": "La acquisterei immediatamente"},
         {"answer": "Dubiterei del prezzo ma la acquisterei"},
-        {"answer": "E' sicuramente una truffa"},
+        {"answer": "È sicuramente una truffa"},
         {"answer": "Chiederei una foto per essere sicuro"}
       ],
 
-      "correctAns":"E' sicuramente una truffa"
+      "correctAns":"Chiederei una foto per essere sicuro"
     },
 
     {
@@ -65,19 +65,19 @@ var jsonData = [
       "answers": [
         {"answer": "Si"},
         {"answer": "No"},
-        {"answer": "No nel 2015"},
+        {"answer": "No, nel 2015"},
         {"answer": "Devono ancora scriverla"}
       ],
-      "correctAns":"No nel 2015"
+      "correctAns":"No, nel 2015"
     },
 
     {
-      "question": "L'uguaglianza di genere è... ",
+      "question": "L'uguaglianza di genere è...",
       "answers": [
-        {"answer": "Rende uguali uomini e donne"},
+        {"answer": "Rendere uguali uomini e donne"},
         {"answer": "Pari opportunità per entrambi"},
-        {"answer": "Risolve tutti i problemi."},
-        {"answer": "Ma solo per un genere."}
+        {"answer": "Risolvere tutti i problemi."},
+        {"answer": "Solo per un genere."}
       ],
       "correctAns":"Pari opportunità per entrambi"
     },
@@ -88,29 +88,29 @@ var jsonData = [
         {"answer": "Solo per i più bravi"},
         {"answer": "Aumentare i voti per tutti"},
         {"answer": "Riservata solo ai paesi ricchi"},
-        {"answer": "Fornisce i materiali e le strutture per l'istruzione"}
+        {"answer": "Fornire i materiali e le strutture per l'istruzione"}
       ],
-      "correctAns":"Pari opportunità per entrambi"
+      "correctAns":"Fornire i materiali e le strutture per l'istruzione"
     },
 
     {
-      "question": "I soldi per te quanto sono importanti? ",
+      "question": "I soldi per te quanto sono importanti?",
       "answers": [
-        {"answer": "I soldi sono tutto"},
+        {"answer": "I soldi sono tutto!"},
         {"answer": "I soldi non fanno la felicità"},
         {"answer": "Non saprei dirlo"},
         {"answer": "I soldi non sono sempre la via giusta"}
       ],
-      "correctAns":"I soldi non fanno la felicità"
+      "correctAns":"I soldi non sono sempre la via giusta"
     },
 
     {
-      "question": "Una trappola finanizaria consiste nel rubare il denaro? ",
+      "question": "Una trappola finanizaria consiste nel rubare il denaro?",
       "answers": [
         {"answer": "Consiste nel tentare la rapina in una banca"},
         {"answer": "No"},
         {"answer": "Si"},
-        {"answer": "Si ma solo se lo fai con cattive intenzioni"}
+        {"answer": "Si, ma solo se lo fai con cattive intenzioni"}
       ],
       "correctAns":"Si"
     },
