@@ -38,6 +38,8 @@ body{
     border-radius: 10px;
     text-transform: uppercase;
     border: none;
+    padding: 15px;
+
 }
 
 #errorButton:active{
@@ -50,4 +52,54 @@ body{
     border-radius: 10px;
     text-transform: uppercase;
     border: none;
+}
+
+#errorButton:hover{
+    background-color: #0f883c;
+}
+
+/* == TABLET ==*/
+
+@media screen and (min-width: 767px) {
+    
+    #gif{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .scritte{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+
+}
+
+
+/* == LAPTOP == */
+
+
+@media screen and (min-width: 790px) {
+    
+      
+
+}
+
+/* == LAPTOP GRANDE == */
+
+@media screen and (min-width:1439px) {
+      
+
 }
