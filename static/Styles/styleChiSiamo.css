@@ -35,17 +35,20 @@ body {
   
 /* == IL PROGETTO ==*/
 #testoSezione2{
-  font-size: 21px;
+  font-size: 18px;
   margin-left: 15%;
   margin-right: 15%;
   padding-bottom: 4rem;
 }
 
 #github{
-  display: block;
-  margin-left: 25%;
   width: 50%;
   padding-bottom: 1.5rem;
+  transition: 0.5s;
+}
+
+#github:hover{
+  width: 26%;
 }
 
 .navbar{
@@ -110,6 +113,7 @@ body {
 .personaTitolo{
   padding-top: 2vh;
   padding-left: 2vh;
+  transition: 0.5s;
 }
 
 span{
@@ -156,10 +160,8 @@ span{
 }
 
 #github{
-  display: block;
-  margin-left: 35%;
   width: 25%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 4.5rem;
 }
 
 }
@@ -187,12 +189,13 @@ span{
 }
 
 #github{
-  display: block;
-  margin-left: 36%;
   width: 24%;
-  padding-bottom: 1.5rem;
 }
 
+#testoSezione2{
+  font-size: 24px;
+
+}
 
 }
 
@@ -215,6 +218,10 @@ span{
     align-items: center;
     padding-bottom: 1rem;
     flex-direction: column;
+}
+
+#testoSezione2{
+  font-size: 32px;
 }
 
 }
