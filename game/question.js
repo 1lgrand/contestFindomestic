@@ -1,6 +1,6 @@
 var jsonData = [
     {
-      "question": "Il valore nominale del denaro, è scritto sulla banconota o sulla moneta.",
+      "question": "Il valore nominale del denaro è scritto sulla banconota e sulla moneta?",
       "answers": [
         {"answer": "Vero"},
         {"answer": "Falso"},
@@ -72,7 +72,7 @@ var jsonData = [
     },
 
     {
-      "question": "L'uguaglianza di genere: ",
+      "question": "L'uguaglianza di genere è... ",
       "answers": [
         {"answer": "Rende uguali uomini e donne"},
         {"answer": "Pari opportunità per entrambi"},
@@ -83,7 +83,7 @@ var jsonData = [
     },
 
     {
-      "question": "L'istruzione di qualità: ",
+      "question": "L'istruzione di qualità è...",
       "answers": [
         {"answer": "Solo per i più bravi"},
         {"answer": "Aumentare i voti per tutti"},
