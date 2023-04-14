@@ -86,8 +86,6 @@ function activeBonus(){
     nBonus--;
     punteggio++;
     nextQuestion(++currIndex)
-  }else{
-
   }
 }
 
