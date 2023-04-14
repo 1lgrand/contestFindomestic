@@ -94,7 +94,10 @@ body {
   text-align: left;
 }
 
-
+.chiSiamoParagrafo{
+  text-align: center;
+  font-size: 35px !important;
+}
 
 .persona{
   flex-direction: row;
