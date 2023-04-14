@@ -25,6 +25,42 @@ body {
     scrollbar-width: none;  /* Firefox */
   }
 
+.introText{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Nunito';
+  letter-spacing: 2px;
+}
+  
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color:transparent;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    z-index: 11;
+}
+
+.navbar.scrollata {
+    background-color: var(--navColor);
+  }
+
+.intro{
+    background-image: url('../images/homeImages/savingMoney.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .persona img{
   width: 6rem;
   height: 6rem;

@@ -10,3 +10,21 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  .intro{
+    background-image: url('../images/homeImages/savingMoney.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .introText{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Nunito';
+    letter-spacing: 2px;
+  }
