@@ -266,13 +266,6 @@ body {
     transition: 0.5s;
 }
 
-.answerItem:hover{
-    border: solid 4px #329C58;
-    background-color: transparent;
-
-}
-
-
 .domanda{
     color: #171c1c;
     text-align: center;

@@ -12,10 +12,10 @@ body {
   }
 
   .intro{
-    background-image: url('../images/homeImages/savingMoney.jpg');
+    background-image: url('../images/FileOriginali/family.jpg');
     background-size: cover;
+    background-position-x: 68%;
     height: 100vh;
-    background-position:center ;
     display: flex;
     align-items: center;
     justify-content: center;
