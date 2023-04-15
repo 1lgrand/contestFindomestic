@@ -72,6 +72,10 @@ body {
     text-align: center;
 }
 
+#button:active{
+        background-color: #02331a;
+}
+
 /* == MEDIA QUERY TABLET */
 
 @media screen and (min-width: 767px) {
@@ -113,6 +117,10 @@ body {
         border-radius: 20px;
         text-align: center;
         cursor: pointer;
+    }
+
+    .answerItem:active{
+        background-color: #02331a;
     }
 
     #modal-box{ 
@@ -176,6 +184,15 @@ body {
     }
 
     .bonusItem:hover{
+        background-color: #02331a;
+    }
+
+    .answerItem:hover{
+        background-color: #02331a;
+        border-radius: 45px;
+    }
+
+    #button:hover{
         background-color: #02331a;
     }
     
@@ -242,6 +259,14 @@ body {
         background-color: #02331a;
     }
     
+    .answerItem:hover{
+        background-color: #02331a;
+        border-radius: 45px;
+    }
+    
+    #button:hover{
+        background-color: #02331a;
+    }
 
 }
 
@@ -270,8 +295,8 @@ body {
 .answerItem{
     display: flex;
     background-color: #006e35;
-    width: 40vh;
-    height: 15vh;
+    width: 42vh;
+    height: 16vh;
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
@@ -322,9 +347,10 @@ body {
 #bonusRimanenti{
     background-color: #329C58;
     color: white;
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-left: 1vh;
 }
 
 .bonus{
