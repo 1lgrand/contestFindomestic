@@ -130,7 +130,9 @@ body {
         display: block;
     }
 
-
+    .bonusItem:hover{
+        background-color: #02331a;
+    }    
 
 }
 
@@ -172,6 +174,11 @@ body {
         text-align: center;
         cursor: pointer;
     }
+
+    .bonusItem:hover{
+        background-color: #02331a;
+    }
+    
 }
 
 /* == LAPTOP GRANDE == */
@@ -231,6 +238,11 @@ body {
         filter: drop-shadow(0px 15px 4px #707270);
     }
 
+    .bonusItem:hover{
+        background-color: #02331a;
+    }
+    
+
 }
 
 
@@ -258,8 +270,8 @@ body {
 .answerItem{
     display: flex;
     background-color: #006e35;
-    width: 200px;
-    height: 100px;
+    width: 40vh;
+    height: 15vh;
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
@@ -275,6 +287,7 @@ body {
 
 .answer{
     margin: auto;
+    font-size: 2.5vh;
 }
 
 
@@ -286,27 +299,24 @@ body {
 .bonusItem{
     display: flex;
     background-color: #53BA72;
-    width: 110px;
-    height: 40px;
+    width: 16vh;
+    height: 7vh;
     border-radius: 10px;
     text-align: center;
     margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
 }
-
 .bonusItem:active{
-    display: flex;
-    background-color: #3a9e58;
-    width: 110px;
-    height: 40px;
-    border-radius: 10px;
-    text-align: center;
-    margin: auto;
-    transition: 1ms;
+    background-color: #02331a;
 }
 
 .testoBonusRimanenti{
     color: #171c1c;
     padding-top: 0.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #bonusRimanenti{

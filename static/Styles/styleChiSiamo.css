@@ -38,7 +38,7 @@ body {
   font-size: 22px;
   margin-left: 6%;
   margin-right: 6%;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 #github{
@@ -47,9 +47,6 @@ body {
   transition: 0.5s;
 }
 
-#github:hover{
-  width: 20%;
-}
 
 .navbar{
     position: fixed;
@@ -166,8 +163,12 @@ span{
 }
 
 #github{
-  width: 25%;
+  width: 35%;
   padding-bottom: 4.5rem;
+}
+
+#github:hover{
+  width: 38%;
 }
 
 #testoSezione2{
@@ -211,6 +212,10 @@ span{
   width: 24%;
 }
 
+#github:hover{
+  width: 27%;
+}
+
 #testoSezione2{
   font-size: 24px;
 
@@ -252,7 +257,11 @@ span{
   }
 
   #github{
-    width: 16%;
+    width: 25%;
+  }
+
+  #github:hover{
+    width: 28%;
   }
 
   .chiSiamoParagrafo {
