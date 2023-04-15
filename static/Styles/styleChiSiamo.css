@@ -167,10 +167,6 @@ span{
   padding-bottom: 4.5rem;
 }
 
-#github:hover{
-  width: 38%;
-}
-
 #testoSezione2{
   font-size: 24px;
 
@@ -240,6 +236,7 @@ span{
     width: 12rem;
     height: 12rem;
   }
+
 
   .persona {
     display: flex;
