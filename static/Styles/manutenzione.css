@@ -24,38 +24,31 @@ body{
     text-align: center;
     font-family: 'Poppins';
     font-size: 17px;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
-#errorButton{
+#errorButton {
     margin-top: 15px;
     font-family: 'Poppins';
     text-align: center;
     background-color: #329C58;
     color: #ebebeb;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 10px;
     text-transform: uppercase;
     border: none;
     padding: 15px;
+    cursor: pointer;
 
+    transition: 0.5s;
 }
 
 #errorButton:active{
-    margin-top: 15px;
-    font-family: 'Poppins';
-    text-align: center;
-    background-color: #0f883c;
-    color: #ebebeb;
-    font-size: 30px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    border: none;
+    background-color: #02331a;
 }
 
 #errorButton:hover{
-    background-color: #0f883c;
+    background-color: #02331a;
+    border-radius: 20px;
 }
 
 /* == TABLET ==*/
@@ -71,7 +64,6 @@ body{
     
     .container{
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
@@ -80,8 +72,6 @@ body{
         text-align: center;
         font-family: 'Poppins';
         font-size: 20px;
-        margin-left: 20%;
-        margin-right: 20%;
     }
     
 
