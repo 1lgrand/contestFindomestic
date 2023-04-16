@@ -202,25 +202,25 @@ span{
   font-size: 24px !important;
 }
 
-#imgScuola{
+#imgScuola {
   border-radius: 5vh;
   width: 55%;
+  padding-bottom: 1.5rem;
 }
 
-.scuola{
-  padding-top: 5%;
+.scuola {
+  padding-top: 3%;
   padding-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
 .didScuola{
   padding-top: 0%;
-  text-align: left;
-  padding-left: 5%;
+  text-align: center;
 }
 
 }
@@ -268,26 +268,26 @@ span{
   font-size: 24px !important;
 }
 
-#imgScuola{
+#imgScuola {
   border-radius: 5vh;
   width: 55%;
+  padding-bottom: 2rem;
 }
 
-.scuola{
-  padding-top: 5%;
+.scuola {
+  padding-top: 3%;
   padding-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
 .didScuola{
   padding-top: 0%;
-  text-align: left;
-  padding-left: 5%;
-  font-size: 26px !important;
+  text-align: center;
+  font-size: 24px !important;
 }
 
 }
@@ -334,26 +334,25 @@ span{
     font-size: 32px !important;
   }
 
-  #imgScuola{
+  #imgScuola {
     border-radius: 5vh;
     width: 55%;
+    padding-bottom: 2rem;
   }
   
-  .scuola{
-    padding-top: 5%;
+  .scuola {
+    padding-top: 3%;
     padding-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
   
   .didScuola{
     padding-top: 0%;
-    text-align: left;
-    padding-left: 5%;
-    font-size: 30px !important;
+    text-align: center;
   }
   
 
