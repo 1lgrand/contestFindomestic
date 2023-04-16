@@ -124,6 +124,32 @@ span{
   padding-right: 5px;
 }
 
+.chiSiamo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+#imgScuola{
+  border-radius: 5vh;
+  width: 100%;
+}
+
+.scuola{
+  padding-top: 5%;
+  padding-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.didScuola{
+  padding-top: 10%;
+  text-align: center;
+}
+
 
 
 /* == MEDIA QUERY TABLET */
@@ -176,6 +202,27 @@ span{
   font-size: 24px !important;
 }
 
+#imgScuola{
+  border-radius: 5vh;
+  width: 55%;
+}
+
+.scuola{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.didScuola{
+  padding-top: 0%;
+  text-align: left;
+  padding-left: 5%;
+}
+
 }
 
 
@@ -221,6 +268,28 @@ span{
   font-size: 24px !important;
 }
 
+#imgScuola{
+  border-radius: 5vh;
+  width: 55%;
+}
+
+.scuola{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.didScuola{
+  padding-top: 0%;
+  text-align: left;
+  padding-left: 5%;
+  font-size: 26px !important;
+}
+
 }
 
 /* == LAPTOP GRANDE == */
@@ -264,5 +333,28 @@ span{
   .chiSiamoParagrafo {
     font-size: 32px !important;
   }
+
+  #imgScuola{
+    border-radius: 5vh;
+    width: 55%;
+  }
+  
+  .scuola{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .didScuola{
+    padding-top: 0%;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 30px !important;
+  }
+  
 
 }
