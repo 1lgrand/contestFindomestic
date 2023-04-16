@@ -43,7 +43,7 @@ body {
 
 #github{
   width: 50%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
   transition: 0.5s;
 }
 
@@ -88,17 +88,17 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 6vh;
-  padding-bottom: 6vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   padding-left: 1.5rem;
   text-align: left;
 }
 
 .chiSiamoParagrafo {
   text-align: center;
-  font-size: 24px !important;
-  margin-left: 6%;
-  margin-right: 6%;
+  font-size: 22px !important;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .persona{
@@ -148,6 +148,7 @@ span{
 .didScuola{
   padding-top: 10%;
   text-align: center;
+  font-size: 22px !important;
 }
 
 
@@ -220,6 +221,7 @@ span{
 .didScuola{
   padding-top: 0%;
   text-align: center;
+  font-size: 24px !important;
   padding-top: 3rem;
 }
 
