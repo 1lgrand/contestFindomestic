@@ -14,7 +14,7 @@ body{
 }
 
 .gifError{
-    width: 50%;
+    width: 100%;
 }
 
 .container{
@@ -64,6 +64,10 @@ body{
         justify-content: center;
         align-items: center;
     }
+
+    .gifError{
+        width: 40%;
+    }
     
     .container{
         display: flex;
@@ -86,7 +90,9 @@ body{
 
 @media screen and (min-width: 790px) {
     
-      
+    .gifError{
+        width: 30%;
+    }
 
 }
 
@@ -94,5 +100,8 @@ body{
 
 @media screen and (min-width:1439px) {
       
-
+    .gifError{
+        width: 30%;
+    }
+    
 }
