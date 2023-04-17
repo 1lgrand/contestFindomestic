@@ -1,6 +1,17 @@
 @import "commons.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/*==== NASCONDE SCROLL BAR ============================================*/
+/* Nasconde la scrollbar da Chrome, Safari and Opera */
+.body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Nasconde la scrollbar da IE, Edge and Firefox */
+.body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
 .linkHome:link{
     font-family: 'Poppins','sans serif';
