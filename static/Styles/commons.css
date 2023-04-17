@@ -76,7 +76,6 @@ body{
     margin-right: 0;
     align-self: flex-start;
     transition: 0.5s;
-   
   }
 
   
@@ -206,13 +205,10 @@ body{
     }
 
     .menuIcon:hover {
-        order: -1;
-        margin-right: auto;
-        cursor: pointer;
         width: 2rem;
-        height: 2rem;
-        margin-right: 0;
-        align-self: flex-start;
+    height: 2rem;
+    margin-right: auto;
+    align-self: flex-start;
     }
       
     .titolo {
@@ -224,13 +220,6 @@ body{
       
     #menuLaterale.show {
         left: 0;
-    }
-
-    .menuIcon:hover {
-        width: 2rem;
-        height: 2rem;
-        margin-right: 0;
-        align-self: flex-start;
     }
 
 }
@@ -254,22 +243,10 @@ body{
     }
 
     .menuIcon:hover {
-        order: -1;
-        margin-right: auto;
-        cursor: pointer;
-    }
-
-    .menuIcon:hover {
         width: 2rem;
         height: 2rem;
         margin-right: auto;
         align-self: flex-start;
-        border: solid 2.5px white;
-        border-radius: 10px;
-        padding: 5px;
-        cursor: pointer;
-        scale: 100px;
-        transition: 0.2s;
     }
       
     .titolo {
@@ -307,12 +284,6 @@ body{
         height: 2rem;
         margin-right: auto;
         align-self: flex-start;
-        border: solid 2.5px white;
-        border-radius: 10px;
-        padding: 5px;
-        cursor: pointer;
-        scale: 100px;
-        transition: 0.2s;
     }
       
     .titolo {
