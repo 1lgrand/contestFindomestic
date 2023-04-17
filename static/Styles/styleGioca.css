@@ -72,10 +72,6 @@ body {
     text-align: center;
 }
 
-#button:active{
-        background-color: #02331a;
-}
-
 /* == MEDIA QUERY TABLET */
 
 @media screen and (min-width: 767px) {
@@ -117,10 +113,6 @@ body {
         border-radius: 20px;
         text-align: center;
         cursor: pointer;
-    }
-
-    .answerItem:active{
-        background-color: #02331a;
     }
 
     #modal-box{ 
@@ -331,9 +323,6 @@ body {
     margin: auto;
     cursor: pointer;
     transition: 0.5s;
-}
-.bonusItem:active{
-    background-color: #02331a;
 }
 
 .testoBonusRimanenti{
