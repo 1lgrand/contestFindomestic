@@ -46,3 +46,6 @@ Realizzato da:
 
 
 <a href="TODO">Style Guide</a>
+
+# VERSION
+- 1.0
