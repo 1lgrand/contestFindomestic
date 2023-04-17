@@ -206,11 +206,13 @@ body{
     }
 
     .menuIcon:hover {
+        order: -1;
+        margin-right: auto;
+        cursor: pointer;
         width: 2rem;
         height: 2rem;
         margin-right: 0;
         align-self: flex-start;
-        transition: 0.5s;
     }
       
     .titolo {
