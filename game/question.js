@@ -18,7 +18,7 @@ var jsonData = [
         {"answer": "Le aziende"},
         {"answer": "Lo Stato"},
         {"answer": "Le persone comuni"},
-        {"answer": ""}
+        {"answer": "La Banca"}
       ],
     
       "correctAns":"La Banca"
