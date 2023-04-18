@@ -47,7 +47,7 @@
             Con quello che hai imparato nella sezione <a class="collegamentoImpara" href="imparaPage.html"><b>Impara qui</b></a> gioca questo divertente quiz. <br><br>
             Le <b>regole</b> sono molto semplici: <br>
             1) Dovrai rispondere a <b>15 domande</b> e dovrai cercare di ottenere il <b>punteggio massimo</b>. <br>
-            2) Avrai a disposizione <b>3 BONUS</b> che ti consentiranno di cambiare domanda. <br>
+            2) Avrai a disposizione <b>3 SKIP</b> che ti consentiranno di cambiare domanda. <br>
             3) Per ogni domanda c'è solo <b>una risposta giusta</b>. <br><br>
             <b>Buon divertimento!</b>
             </p>
@@ -67,13 +67,13 @@
         <p onclick="setAnswer('answer3')" class="answerItem"><span id="answer3" name="answer"  class="answer testo"></span></p>
         <p onclick="setAnswer('answer4')" class="answerItem"><span id="answer4" name="answer"  class="answer testo"></span></p>
         
-        <p class="bonusItem" onclick="activeBonus()"><span id="bonus" name="bonus" class="bonus testo">BONUS</span></p>
-        <p class="testo testoBonusRimanenti" style="text-align: center;">Bonus Rimanenti: <span name="bonusRimanenti" class="testo" id="bonusRimanenti"></span></p>
+        <p class="bonusItem" onclick="activeBonus()"><span id="bonus" name="bonus" class="bonus testo">SKIP</span></p>
+        <p class="testo testoBonusRimanenti" style="text-align: center;">SKIP Rimanenti: <span name="bonusRimanenti" class="testo" id="bonusRimanenti"></span></p>
     </div>
 
     <div id="modal-box" class="hidden">
         <h2 id="testoComplimenti" class="testo">CARICAMENTO</h2>
-        <p id="testoPunteggio" class="testo">Il tuo punteggio:<br> <span id="points">10</span></p>
+        <p id="testoPunteggio" class="testo">Il tuo punteggio:<br> <span id="points">15</span></p>
         <img id="emoji" src="">
         <button id="giocaAncora" class="testo" onclick="giocaAncora()">Chiudi</button>
     </div>
