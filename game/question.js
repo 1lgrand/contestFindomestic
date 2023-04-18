@@ -24,6 +24,19 @@ var jsonData = [
       "correctAns":"La Banca"
 
     },
+    
+    {
+      "question": "Che cos'è il potere d'acquisto?",
+      "answers": [
+        {"answer": "Il potere di risparmiare soldi"},
+        {"answer": "Poter comprare ciò che si desidera con i soldi che si hanno a disposizione"},
+        {"answer": "Il potere di vendere cose a prezzi altissimi"},
+        {"answer": "Il potere di decidere cosa comprare e cosa no"}
+      ],
+    
+      "correctAns":"Poter comprare ciò che si desidera con i soldi che si hanno a disposizione"
+
+    },
 
     {
       "question": "Quanti sono gli obiettivi Agenda 2030?",
@@ -74,7 +87,7 @@ var jsonData = [
     },
 
     {
-      "question": "L'agenda 2030 è stata fondata nel 2030?",
+      "question": "L'Agenda 2030 è stata fondata nel 2030?",
       "answers": [
         {"answer": "Si"},
         {"answer": "No"},
@@ -145,22 +158,21 @@ var jsonData = [
       "answers": [
         {"answer": "La regalo ai miei amici"},
         {"answer": "La conservo"},
-        {"answer": "La utilizzo parzialmente"},
+        {"answer": "La utilizzo in parte"},
         {"answer": "La utilizzo tutta"}
       ],
-      "correctAns":"La utilizzo parzialmente"
+      "correctAns":"La utilizzo in parte"
     },
 
     {
       "question": "Come vedi il tuo futuro dopo tutti questi concetti?",
       "answers": [
-        {"answer": "Affermarmi professionalmente"},
-        {"answer": "Ancora non so"},
-        {"answer": "Diventare ricchissimo!!"},
+        {"answer": "Fare il lavoro dei mei sogni"},
+        {"answer": "Non ho bisogno di pensare al mio futuro"},
+        {"answer": "Diventare ricchissimo!"},
         {"answer": "Accontentarmi di quello che capita"}
       ],
-      "correctAns":"Affermarmi professionalmente",
-      "correctAns":"Ancora non so"
+      "correctAns":"Fare il lavoro dei mei sogni"
     },
 
   ]
