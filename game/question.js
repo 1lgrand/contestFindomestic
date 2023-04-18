@@ -11,17 +11,18 @@ var jsonData = [
       "correctAns":"Vero"
 
     },
-  
-    {
-      "question": "Qual è il primo obiettivo dell'Agenda 2030?",
-      "answers": [
-        {"answer": "No Povertà"},
-        {"answer": "Uguaglianza di genere"},
-        {"answer": "Pesca Sostenibile"},
-        {"answer": "Benessere e salute"}
-      ],
 
-      "correctAns":"No Povertà"
+    {
+      "question": "Chi sceglie il valore del denaro?",
+      "answers": [
+        {"answer": "Le aziende"},
+        {"answer": "Lo Stato"},
+        {"answer": "Le persone comuni"},
+        {"answer": "La banca"}
+      ],
+    
+      "correctAns":"La Banca"
+
     },
 
     {
@@ -37,7 +38,7 @@ var jsonData = [
     },
 
     {
-      "question": "Qual è l'obiettivo del SDG1?",
+      "question": "Qual è l'obiettivo dell'SDG 1?",
       "answers": [
         {"answer": "Porre fine alla povertà entro il 2020"},
         {"answer": "Porre fine alla povertà entro il 2030"},
@@ -46,6 +47,30 @@ var jsonData = [
       ],
 
       "correctAns":"Porre fine alla povertà entro il 2030"
+    },
+
+    {
+      "question": "Qual è l'obiettivo dell'SDG 4?",
+      "answers": [
+        {"answer": "Promuovere la salute e il benessere"},
+        {"answer": "Ridurre l'impatto ambientale"},
+        {"answer": "Migliorare le infrastrutture"},
+        {"answer": "Garantire un'istruzione inclusiva, equa e di qualità"}
+      ],
+
+      "correctAns":"Garantire un'istruzione inclusiva, equa e di qualità"
+    },
+
+    {
+      "question": "Qual è l'obiettivo dell'SDG 5?",
+      "answers": [
+        {"answer": "Promuovere il turismo sostenibile"},
+        {"answer": "Aumentare la produzione di energia pulita"},
+        {"answer": "Raggiungere l'uguaglianza di genere"},
+        {"answer": "Promuovere l'occupazione giovanile"}
+      ],
+
+      "correctAns":"Raggiungere l'uguaglianza di genere"
     },
 
     {
@@ -113,6 +138,29 @@ var jsonData = [
         {"answer": "I soldi non sono sempre la via giusta"}
       ],
       "correctAns":"I soldi non sono sempre la via giusta"
+    },
+
+    {
+      "question": "Cosa ne fai della paghetta?",
+      "answers": [
+        {"answer": "La regalo ai miei amici"},
+        {"answer": "La conservo"},
+        {"answer": "La utilizzo parzialmente"},
+        {"answer": "La utilizzo tutta"}
+      ],
+      "correctAns":"La utilizzo parzialmente"
+    },
+
+    {
+      "question": "Come vedi il tuo futuro dopo tutti questi concetti?",
+      "answers": [
+        {"answer": "Affermarmi professionalmente"},
+        {"answer": "Ancora non so"},
+        {"answer": "Diventare ricchissimo!!"},
+        {"answer": "Accontentarmi di quello che capita"}
+      ],
+      "correctAns":"Affermarmi professionalmente",
+      "correctAns":"Ancora non so"
     },
 
   ]
