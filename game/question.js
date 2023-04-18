@@ -49,18 +49,6 @@ var jsonData = [
     },
 
     {
-      "question": "Se ti proponessi una macchina ad un prezzo basso, senza mai fartela vedere, cosa faresti?",
-      "answers": [
-        {"answer": "La acquisterei immediatamente"},
-        {"answer": "Dubiterei del prezzo ma la acquisterei"},
-        {"answer": "È sicuramente una truffa"},
-        {"answer": "Chiederei una foto per essere sicuro"}
-      ],
-
-      "correctAns":"Chiederei una foto per essere sicuro"
-    },
-
-    {
       "question": "L'agenda 2030 è stata fondata nel 2030?",
       "answers": [
         {"answer": "Si"},
@@ -94,17 +82,6 @@ var jsonData = [
     },
 
     {
-      "question": "I soldi per te quanto sono importanti?",
-      "answers": [
-        {"answer": "I soldi sono tutto!"},
-        {"answer": "I soldi non fanno la felicità"},
-        {"answer": "Non saprei dirlo"},
-        {"answer": "I soldi non sono sempre la via giusta"}
-      ],
-      "correctAns":"I soldi non sono sempre la via giusta"
-    },
-
-    {
       "question": "Una trappola finanizaria consiste nel rubare il denaro?",
       "answers": [
         {"answer": "Consiste nel tentare la rapina in una banca"},
@@ -115,6 +92,28 @@ var jsonData = [
       "correctAns":"Si"
     },
 
+    {
+      "question": "Se ti proponessi una macchina ad un prezzo basso, senza mai fartela vedere, cosa faresti?",
+      "answers": [
+        {"answer": "La acquisterei immediatamente"},
+        {"answer": "Dubiterei del prezzo ma la acquisterei"},
+        {"answer": "È sicuramente una truffa"},
+        {"answer": "Chiederei una foto per essere sicuro"}
+      ],
+
+      "correctAns":"Chiederei una foto per essere sicuro"
+    },
+
+    {
+      "question": "I soldi per te quanto sono importanti?",
+      "answers": [
+        {"answer": "I soldi sono tutto!"},
+        {"answer": "I soldi non fanno la felicità"},
+        {"answer": "Non saprei dirlo"},
+        {"answer": "I soldi non sono sempre la via giusta"}
+      ],
+      "correctAns":"I soldi non sono sempre la via giusta"
+    },
 
   ]
 
