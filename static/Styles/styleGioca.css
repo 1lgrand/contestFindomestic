@@ -206,15 +206,15 @@ body {
     }
 
     .regole{
-        font-size: 35px;
+        font-size: 28px;
         margin-top: 8vh;
         margin-right: 30vh;
         margin-left: 30vh;
     }
 
-    .collegamentoImpara{ 
-        color: #02331a; 
-        font-size: 35px;
+    .collegamentoImpara {
+        color: #02331a;
+        font-size: 28px;
     }
 
     .playButton{
