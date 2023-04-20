@@ -39,6 +39,71 @@ var jsonData = [
     },
 
     {
+      "question": "Quale tra questi NON è un modo per investire i propri soldi?",
+      "answers": [
+        {"answer": "Acquistare azioni"},
+        {"answer": "Investire nei metalli preziosi"},
+        {"answer": "Investire in immobili"},
+        {"answer": "Lasciarli nel conto corrente"}
+      ],
+    
+      "correctAns":"Lasciarli nel conto corrente"
+
+    },
+
+    {
+      "question": "Qual'e l'unico modo per investire i propri soldi e avere la garanzia di guadagnare?",
+      "answers": [
+        {"answer": "Non esiste alcun modo per garantire un guadagno certo con gli investimenti"},
+        {"answer": "Investire in Bitcoin"},
+        {"answer": "Tenere i soldi in casa"},
+        {"answer": "Acquistare le azioni di un'azienda"}
+      ],
+    
+      "correctAns":"Non esiste alcun modo per garantire un guadagno certo con gli investimenti"
+
+    },
+
+    {
+      "question": "Cosa rappresentano le azioni di una società?",
+      "answers": [
+        {"answer": "Rappresentano una garanzia di guadagno per gli investitori"},
+        {"answer": "Rappresentano una proprietà della società e ne riflettono il valore"},
+        {"answer": "Sono una forma di debito della società nei confronti degli investitori"},
+        {"answer": "Sono una forma di credito concessa dalla società agli investitori"}
+      ],
+    
+      "correctAns":"Rappresentano una proprietà della società e ne riflettono il valore"
+
+    },
+
+    {
+      "question": "Le obbligazioni sono un prestito fatto...",
+      "answers": [
+        {"answer": "A un governo o a una banca"},
+        {"answer": "A un'azienda o a un governo"},
+        {"answer": "A più aziende"},
+        {"answer": "A tante persone"}
+      ],
+    
+      "correctAns":"A un'azienda o a un governo"
+
+    },
+
+    {
+      "question": "Qual'è il fattore che garantisce la sicurezza delle transazioni con le criptovalute?",
+      "answers": [
+        {"answer": "L'identificazione biometrica dell'investitore"},
+        {"answer": "La firma digitale dell'investitore"},
+        {"answer": "La garanzia fornita dalle banche centrali"},
+        {"answer": "L'utilizzo della crittografia"}
+      ],
+    
+      "correctAns":"L'utilizzo della crittografia"
+
+    },
+
+    {
       "question": "Quanti sono gli obiettivi Agenda 2030?",
       "answers": [
         {"answer": "8"},
@@ -165,16 +230,25 @@ var jsonData = [
     },
 
     {
-      "question": "Come vedi il tuo futuro dopo tutti questi concetti?",
+      "question": "Per il tuo compleanno ti sono stati regalati 1000€. Quale sarebbe la scelta migliore da fare con questi soldi?",
       "answers": [
-        {"answer": "Fare il lavoro dei mei sogni"},
-        {"answer": "Non ho bisogno di pensare al mio futuro"},
-        {"answer": "Diventare ricchissimo!"},
-        {"answer": "Accontentarmi di quello che capita"}
+        {"answer": "Mi compro qualcosa di lussuoso"},
+        {"answer": "Li investo in un fondo comune di investimento"},
+        {"answer": "Spendo tutto in un'unica cosa che desidero da tempo"},
+        {"answer": "Li deposito sul mio conto corrente bancario"}
       ],
-      "correctAns":"Fare il lavoro dei mei sogni"
+      "correctAns":"Li investo in un fondo comune di investimento"
+    },
+
+    {
+      "question": "Dopo aver affrontato tutti questi concetti, come vedi il tuo futuro?",
+      "answers": [
+        {"answer": "Ho capito meglio come poter gestire i miei soldi e spero in un futuro finanziario stabile"},
+        {"answer": "Che noia la finanza. Non penso di interessarmene"},
+        {"answer": "Sarò milionario!!"},
+        {"answer": "Spero di vincere alla lotteria così non mi preoccupo più dei soldi"}
+      ],
+      "correctAns":"Ho capito meglio come poter gestire i miei soldi e spero in un futuro finanziario stabile"
     },
 
   ]
-
-
