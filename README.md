@@ -48,4 +48,4 @@ Realizzato da:
 <a href="TODO">Style Guide</a>
 
 # VERSION
-- 2.0
+- 2.1
