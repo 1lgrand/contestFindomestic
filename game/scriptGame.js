@@ -64,7 +64,7 @@ function checkAnswer(){
 
     if(jsonData[currIndex].correctAns == userAnswer){
       punteggio++;
-      console.log("[DEBUG] Corretto!" + punteggio)
+      //console.log("[DEBUG] Corretto!" + punteggio)
       if(currIndex+1 == jsonData.length){
         visualizzaPunteggio()
       }else{
@@ -72,7 +72,7 @@ function checkAnswer(){
       }
       
     }else{
-      console.log("[DEBUG] Errato!")
+      //console.log("[DEBUG] Errato!")
       if(currIndex+1 == jsonData.length){
         visualizzaPunteggio()
       }else{
@@ -111,7 +111,7 @@ function visualizzaPunteggio(){
     punteggioHtml.textContent = punteggio.toString()
     document.body.style.overflow = "hidden";
     if(perc >= 90){
-      frase.textContent = "WOW"
+      frase.textContent = "FANTASTICO!!"
       emjHtml.src = "game/assets/moneyEMJ.svg"
       emjHtml.alt = "Image1"
     }else if(perc < 90 && perc >= 60){
@@ -123,7 +123,7 @@ function visualizzaPunteggio(){
       emjHtml.src = "game/assets/shockEMJ.svg"
       emjHtml.alt = "Image3"
     }else{
-      frase.textContent = "NON CI SIAMO"
+      frase.textContent = "NON CI SIAMO..."
       emjHtml.src = "game/assets/sadEMJ.svg"
       emjHtml.alt = "Image4"
     }
